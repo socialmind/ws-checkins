@@ -5,7 +5,7 @@ require_once('includes/parsecsv.lib.php');
 /**
  * IMDB CheckIn Tracker.
  *
- * @version 1.0, July 21, 2013
+ * @version v1.0, July 21, 2013
  * @copyright Websthetics <info@websthetics.gr>
  * @license http://mozilla.org/MPL/2.0/
  * 
