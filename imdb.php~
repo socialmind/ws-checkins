@@ -5,7 +5,7 @@ require_once('includes/parsecsv.lib.php');
 /**
  * IMDB CheckIn Tracker.
  *
- * @version 1.0 - July 21, 2013
+ * @version v1.0, July 21, 2013
  * @copyright Websthetics <info@websthetics.gr>
  * @license http://mozilla.org/MPL/2.0/
  * 
@@ -28,6 +28,8 @@ class imdbCheckInTracker
 	private $checkinURL;
 	/** IMDB user's ID */
 	private $imdbUserID;
+	/** CSV folder */
+	private $CSVdir;
 	/** File name on the server */
 	private $filename;
 	/** CSV handler */
@@ -113,10 +115,17 @@ class imdbCheckInTracker
 	 * CSV's "position" field.
 	 */
 	public function __construct($userID) {
+	
 		$this->checkinURL = "http://www.imdb.com/list/export?list_id=checkins&amp;author_id=" . $userID;
 		$this->imdbUserID = $userID;
-		$this->filename = "data/".$this->imdbUserID.".csv";
-		
+		$this->CSVdir = "data";
+		$this->filename = $this->CSVdir . "/" . $this->imdbUserID.".csv";
+	
+		//Check if data folder exists and if not create it
+		if (!file_exists($this->CSVdir)) {
+		    mkdir($this->CSVdir, 0777);
+		}
+	
 		$this->nofElementsSeen = 0;
 		$this->elementsSeen = array();
 		$this->nofTVEpisodesSeen = 0;
