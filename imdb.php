@@ -11,7 +11,7 @@ require_once('includes/parsecsv.lib.php');
  * 
  * @author Apostolos Kritikos <akritiko@gmail.com>
  * 
- * Class that analyzes the checkin history of an IMDB user and produces
+ * @description Class that analyzes the checkin history of an IMDB user and produces
  * statistics. 
  *
  * LICENSE
