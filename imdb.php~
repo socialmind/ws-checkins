@@ -1,6 +1,6 @@
 <?php
 
-require_once('./includes/parsecsv.lib.php');
+require_once('../includes/parsecsv.lib.php');
 
 /**
  * IMDB CheckIn Tracker.
