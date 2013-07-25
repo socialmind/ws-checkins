@@ -1,4 +1,4 @@
-imdb
-====
+imdb-checkin
+============
 
-A library that interacts with IMDB's publicly available information.
+Class that analyzes the checkin history of an IMDB user and produces statistics. 
