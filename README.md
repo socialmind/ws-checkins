@@ -1,13 +1,13 @@
 #imdb-checkin#
 
-Class that analyzes the checkin history of an IMDB user and produces statistics. 
+Class that analyzes the check-ins history of an IMDB user and produces statistics. 
 
 ###How do IMDB chechins work?###
 
 >Check-ins are an IMDb feature that let you tell us that you have recently watch, are currently watching, 
 >or will shortly watch a title listed on IMDb. <i>-- <a href="http://imdb.com">IMDB.com</a>
 
-You can find more information about IMDB checkins <a href="http://www.imdb.com/help/show_leaf?checkins">here</a>
+You can find more information about IMDB check-ins <a href="http://www.imdb.com/help/show_leaf?checkins">here</a>
 
 ###License###
 
