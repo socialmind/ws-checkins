@@ -1,4 +1,4 @@
-#imdb-checkin#
+##imdb-checkins##
 
 Class that analyzes the check-ins history of an IMDB user and produces statistics. 
 
