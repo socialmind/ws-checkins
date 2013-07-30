@@ -1,22 +1,22 @@
-##imdb-checkins##
+##IMDb Check-ins##
 
-Class that analyzes the check-ins history of an IMDB user and produces statistics. 
+Class that analyzes the check-ins history of an IMDb user and produces statistics. 
 
-###How do IMDB chech-ins work?###
+###How do IMDb Check-ins work?###
 
 >Check-ins are an IMDb feature that let you tell us that you have recently watch, are currently watching, 
->or will shortly watch a title listed on IMDb. <i>-- <a href="http://imdb.com" target="top">IMDB.com</a>
+>or will shortly watch a title listed on IMDb. <i>-- <a href="http://imdb.com" target="top">IMDb.com</a>
 
-You can find more information about IMDB check-ins <a href="http://www.imdb.com/help/show_leaf?checkins" target="top">here</a>.
+You can find more information about IMDb check-ins <a href="http://www.imdb.com/help/show_leaf?checkins" target="top">here</a>.
 
 ###Setup & Prerequisites###
 
-To start using imdb-checkins, all you need to do is to import the class <b>imdb.php</b> to your project. 
+To start using IMDb Check-ins, all you need to do is to import the class <b>imdb.php</b> to your project. 
 
     require_once("path/to/imdb.php");
 
 NOTE: Beware that in order for <b>imdb.php</b> to work correctly you need to also put the <b>includes</b> directory to 
-your project, to the same directory as <b>imdb.php</b>.
+your project, to the same directory level as <b>imdb.php</b>.
 
     -- yourProject/
       -- includes/
