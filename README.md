@@ -1,4 +1,4 @@
-##IMDb Check-ins##
+##WS Check-ins##
 
 Class that analyzes the check-ins history of an IMDb user and produces statistics. 
 
