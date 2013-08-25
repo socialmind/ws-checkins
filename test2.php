@@ -1,11 +1,9 @@
 <?php
-require_once('config.php');
-require_once('functions.php');
-include('./header.php');
+require_once(__DIR__.'/config.php');
+require_once(__DIR__.'/functions.php');
 
 $path = getAllShows();
-echo $path;
 $csv = readCSV($path, "title");
-printCSV($csv);
+printCSV($csv, 'List of TV Series in Epguides');
 
 ?>

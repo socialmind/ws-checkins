@@ -1,7 +1,6 @@
 <?php
-require_once('config.php');
-require_once('functions.php');
-include('./header.php');
+require_once(__DIR__.'/config.php');
+require_once(__DIR__.'/functions.php');
 
 $csv = getEpisodesList("arrow");
 $path = "";
@@ -94,8 +93,4 @@ $freebase = new Freebase('AIzaSyDxUIEJXpGkYKTca93JNsMndmzE88KQLPw');
 $result = $freebase->search('Gilmore', 'all type:/tv/tv_program');
 
 print_r($result);
-?>
-
-<?php
-include('./footer.php');
 ?>

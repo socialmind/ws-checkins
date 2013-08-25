@@ -81,7 +81,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "After You've Gone",AfterYouveGone,10798,Jan 2007,Dec 2008,"28 eps","30 min","BBC1",UK
 "Afterlife",Afterlife,6749,Sep 2005,Nov 2006,"14 eps","60 min","ITV1",UK
 "AfterMASH",AfterMASH,2511,Sep 1983,Dec 1984,"30 eps","30 min","CBS",US
-"Aftermath with William Shatner",AftermathwithWilliamShatner,25948,Aug 2010,___ ____,"xx eps","60 min","Biography Channel",US
+"Aftermath with William Shatner",AftermathwithWilliamShatner,25948,Aug 2010,Aug 2011,"12 eps","60 min","Biography Channel",US
 "Against the Grain",AgainsttheGrain,2513,Oct 1993,Dec 1993,"8 eps","60 min","NBC",US
 "Against the Law",AgainsttheLaw,2514,Sep 1990,Apr 1991,"17 eps","60 min","Fox",US
 "Against the Wall",AgainsttheWall,28761,Jul 2011,Oct 2011,"13 eps","60 min","Lifetime",US
@@ -118,8 +118,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "ALF (1986)",ALF,2532,Sep 1986,Mar 1990,"102 eps, 1 Special, 1 TVM","30 min","NBC",US
 "ALF (1987)",ALF_anim,2533,Sep 1987,Jan 1989,"26 eps","30 min","NBC",US
 "ALF Tales",AlfTales,2536,Sep 1988,Dec 1989,"21 eps","30 min","NBC",US
-"The Alfred Hitchcock Hour",AlfredHitchcockHour,5557,Sep 1962,May 1965,"93 eps","60 min","NBC",US
 "The Alfred Hitchcock Hour",AlfredHitchcockHour,5557,Sep 1962,May 1965,"93 eps","60 min","CBS",US
+"The Alfred Hitchcock Hour",AlfredHitchcockHour,5557,Sep 1962,May 1965,"93 eps","60 min","NBC",US
 "Alfred Hitchcock Presents (1955)",AlfredHitchcockPresents,2534,Oct 1955,Jun 1962,"268 eps","30 min","CBS",US
 "Alfred Hitchcock Presents (1985)",AlfredHitchcockPresents_1985,2535,May 1985,Jul 1989,"80 eps","30 min","USA",US
 "Alfred Hitchcock Presents (1985)",AlfredHitchcockPresents_1985,2535,May 1985,Jul 1989,"80 eps","30 min","NBC",US
@@ -135,7 +135,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Alienators: Evolution Continues",AlienatorsEvolutionContinues,2542,Sep 2001,May 2002,"26 eps","30 min","Fox",US
 "Aliens in America",AliensinAmerica,15759,Oct 2007,May 2008,"18 eps","30 min","CW",US
 "Aliens in the Family (1996)",AliensintheFamily_US,2545,Mar 1996,Aug 1996,"8 eps","30 min","ABC",US
-"The A-List: New York",AList,26348,Oct 2010,___ ____,"xx eps","60 min","Logo",US
+"The A-List: New York",AList,26348,Oct 2010,Oct 2011,"22 eps","60 min","Logo",US
 "All About the Andersons",AllAbouttheAndersons,2550,Sep 2003,Feb 2004,"16 eps","30 min","WB",US
 "All About Us",AllAboutUs,2551,Aug 2001,Nov 2001,"13 eps","30 min","NBC",US
 "All Along the Watchtower",AllAlongtheWatchtower,2552,Feb 1999,Apr 1999,"6 eps","30 min","BBC1",UK
@@ -236,8 +236,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Amish in the City",AmishintheCity,2605,July 2004,Sep 2004,"10 eps","60 min","UPN",US
 "Amos 'n' Andy",AmosandAndy,2607,June 1951,June 1953,"78 eps","30 min","CBS",US
 "Anchorwoman",Anchorwoman,15763,Aug 2007,Aug 2007,"8 eps, 7 unaired","60 min","Fox",US
-"Ancient Aliens",AncientAliens,25490,Apr 2010,___ ____,"xx eps","60 min","H2",US
 "Ancient Aliens",AncientAliens,25490,Apr 2010,___ ____,"xx eps","60 min","History",US
+"Ancient Aliens",AncientAliens,25490,Apr 2010,___ ____,"xx eps","60 min","H2",US
 "Ancients Behaving Badly",AncientsBehavingBadly,24333,Nov 2009,Dec 2009,"8 eps","60 min","History",US
 "Anderson",Anderson,29152,Sep 2011,___ ____,"xx eps","60 min","syndicated",US
 "Andromeda",Andromeda,2608,Oct 2000,May 2005,"110 eps","60 min","syndicated",US
@@ -256,7 +256,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Anger Management",AngerManagement,29999,June 2012,___ ____,"100+ eps","30 min","FX",US
 "Angie",Angie,2613,Feb 1979,Oct 1980,"36 eps","30 min","ABC",US
 "The Angry Beavers",AngryBeavers,5576,Sep 1997,Mar 2001,"62 eps","30 min","Nick",US
-"Angry Boys",AngryBoys,28421,May 2011,___ ____,"12 eps","30 min","ABC",AU
+"Angry Boys",AngryBoys,28421,May 2011,July 2011,"12 eps","30 min","ABC",AU
 "Animal Atlas",AnimalAtlas,2614,Sep 2004,May 2005,"22 eps","30 min","syndicated",US
 "Animal Face-Off",AnimalFaceOff,2617,Mar 2004,June 2004,"12 eps","60 min","Discovery Channel",US
 "Animal Practice",AnimalPractice,30758,Aug 2012,Oct 2012,"13 eps, 7 unaired","30 min","NBC",US
@@ -316,6 +316,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Arresting Behavior",ArrestingBehavior,2650,Aug 1992,Sep 1992,"5 eps","30 min","ABC",US
 "Arrow",Arrow,30715,Oct 2012,___ ____,"13+ eps","xx min","CW",US
 "Arsenio",Arsenio,2651,Mar 1997,Apr 1997,"6 eps","30 min","ABC",US
+"The Arsenio Hall Show (2013)",ArsenioHallShow,34178,Sep 2013,___ ____,"xx eps","60 min","syndicated",US
 "Arthur of the Britons",ArthuroftheBritons,2653,Dec 1972,Nov 1973,"24 eps","30 min","ITV",UK
 "As If (UK)",AsIf_UK,2654,Jan 2001,Aug 2002,"55 eps","30 min","E4",UK
 "As If (US)",AsIf_US,2655,Mar 2002,Apr 2002,"7 eps","30 min","UPN",US
@@ -334,7 +335,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Astro Boy (1980)",AstroBoy_1980,12371,Oct 1980,Nov 1980,"52 eps","30 min","Nippon",JP
 "Astro Boy (2004)",AstroBoy_2004,2662,Jan 2004,June 2004,"50 eps","30 min","Animax",JP
 "Astro Boy (2004)",AstroBoy_2004,2662,Jan 2004,June 2004,"50 eps","30 min","WB",US
-"At Home with Julia",AtHomewithJulia,29458,Sep 2011,___ ____,"xx eps","30 min","ABC",AU
+"At Home with Julia",AtHomewithJulia,29458,Sep 2011,Sep 2011,"4 eps","30 min","ABC",AU
 "At Home with the Braithwaites",AtHomewiththeBraithwaites,2664,Jan 2000,Apr 2003,"26 eps","30 min","ITV1",UK
 "The A-Team",ATeam,5516,Jan 1983,Mar 1987,"98 eps","60 min","NBC",US
 "Atlantis High",AtlantisHigh,2665,Sep 2001,Mar 2002,"26 eps","30 min","Channel 5",NZ
@@ -343,9 +344,9 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Attack of the Killer Tomatoes",AttackoftheKillerTomatoes,2669,Sep 1990,Nov 1991,"21? eps","30 min","Fox",US
 "Auction Hunters",AuctionHunters,26960,Nov 2010,___ ____,"xx eps","30 min","Spike",US
 "Auction Kings",AuctionKings,26858,Oct 2010,___ ____,"xx eps","30 min","Discovery Channel",US
-"An Audience with",Audiencewith,,Dec 1980,___ ____,"38+ eps","45-95 min","ITV",UK
-"An Audience with",Audiencewith,,Dec 1980,___ ____,"38+ eps","45-95 min","Channel 4",UK
 "An Audience with",Audiencewith,,Dec 1980,___ ____,"38+ eps","45-95 min","ITV1",UK
+"An Audience with",Audiencewith,,Dec 1980,___ ____,"38+ eps","45-95 min","Channel 4",UK
+"An Audience with",Audiencewith,,Dec 1980,___ ____,"38+ eps","45-95 min","ITV",UK
 "Auf Wiedersehen, Pet",AufWiedersehenPet,2672,Nov 1983,Dec 2004,"42 eps","60 min","ITV",UK
 "Auf Wiedersehen, Pet",AufWiedersehenPet,2672,Nov 1983,Dec 2004,"42 eps","60 min","BBC1",UK
 "A.U.S.A.",AUSA,2469,Feb 2003,Apr 2003,"12 eps","30 min","NBC",US
@@ -381,8 +382,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Babylon 5",Babylon5,2693,Mar 1993,Jan 1999,"110 eps + TVMs","60 min","TNT",US
 "The Bachelor",Bachelor,5593,Mar 2002,___ ____,"112+ eps","60 min","ABC",US
 "Bachelor Father",BachelorFather,39,Sep 1957,June 1962,"157 eps","30 min","NBC",US
-"Bachelor Father",BachelorFather,39,Sep 1957,June 1962,"157 eps","30 min","CBS",US
 "Bachelor Father",BachelorFather,39,Sep 1957,June 1962,"157 eps","30 min","ABC",US
+"Bachelor Father",BachelorFather,39,Sep 1957,June 1962,"157 eps","30 min","CBS",US
 "Bachelor Pad",BachelorPad,2029,Aug 2010,___ ____,"xx eps","120 min","ABC",US
 "The Bachelorette",Bachelorette,5594,Jan 2003,___ ____,"39+ eps","60 min","ABC",US
 "Back at the Barnyard",BackattheBarnyard,15372,Sep 2007,Nov 2011,"67 eps","30 min","Nick",US
@@ -414,7 +415,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Balls of Steel Australia",BallsofSteelAustralia,28169,Apr 2011,___ ____,"xx eps","30 min","The Comedy Channel",AU
 "Ballykissangel",Ballykissangel,2704,Feb 1996,Apr 2001,"57 eps, 1 special","50 min","BBC1",UK
 "Bama Belles",BamaBelles,27052,Dec 2010,___ ____,"xx eps","60 min","TLC",US
-"Bama Glama",BamaGlama,30447,Dec 2011,___ ____,"xx eps","30 min","Food Network",US
+"Bama Glama",BamaGlama,30447,Dec 2011,Jan 2012,"6 eps","30 min","Food Network",US
 "Banacek",Banacek,2705,Mar 1972,Mar 1974,"17 eps","90 min","NBC",US
 "The Banana Splits Adventure Hour",BananaSplitsAdventureHour,340,Sep 1968,Nov 1969,"31 eps","60 min","NBC",US
 "Bananaman",Bananaman,2706,Oct 1983,Apr 1986,"40 eps","5 min","BBC1",UK
@@ -576,7 +577,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Big!",BIG,2784,June 2004,Dec 2004,"13 eps","60 min","Discovery Channel",US
 "Big Ang",BigAng,31456,July 2012,___ ____,"xx eps","30 min","VH-1",US
 "Big Apple",BigApple,2785,Mar 2001,Mar 2001,"6 eps","30 min","CBS",US
-"Big Bad World",BigBadWorld,2786,Jul 1999,Oct 2001,"16 eps","60 / 30 min","ITV",UK
+"Big Bad World (1999)",BigBadWorld,2786,Jul 1999,Oct 2001,"16 eps","60 / 30 min","ITV",UK
 "The Big Bang Theory",BigBangTheory,8511,Sep 2007,___ ____,"30+ eps","30 min","CBS",US
 "Big, Bigger, Biggest",BigBiggerBiggest,18690,Apr 2008,Mar 2010,"17 eps","60 min","Science",US
 "Big Breadwinner Hog",BigBreadwinnerHog,,Apr 1969,May 1969,"8 eps","60 min","ITV",UK
@@ -605,7 +606,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Big Rich Atlanta",BigRichAtlanta,33545,Jan 2013,___ ____,"xx eps","60 min","Style",US
 "Big Rich Texas",BigRichTexas,28933,July 2011,___ ____,"xx eps","60 min","Style",US
 "Big School",BigSchool,36896,Aug 2013,___ ____,"xx eps","30 min","BBC1",UK
-"Big Sexy",BigSexy,29122,Aug 2011,___ ____,"xx eps","60 min","TLC",US
+"Big Sexy",BigSexy,29122,Aug 2011,Sep 2011,"3 eps","60 min","TLC",US
 "Big Shamus, Little Shamus",BigShamusLittleShamus,257,Sep 1979,Oct 1979,"10 eps","60 min","CBS",US
 "Big Shots",BigShots,15710,Sep 2007,Jan 2008,"11 eps","60 min","ABC",US
 "Big Sound",BigSound,2801,Dec 2000,Jun 2001,"22 eps","30 min","Global",CA
@@ -659,13 +660,13 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Blackstar",Blackstar,2820,Sep 1981,Dec 1981,"13 eps","30 min","CBS",US
 "Blackstone",Blackstone,28165,Jan 2011,___ ____,"17+ eps","60 min","APTN",CA
 "Blade: The Series (2006)",Blade,2822,Jun 2006,Sep 2006,"13 eps","60 min","Spike",US
-"Blade (2012)",Blade_2012,30524,Jan 2012,___ ____,"12 eps","30 min","G4",US
 "Blade (2012)",Blade_2012,30524,Jan 2012,___ ____,"12 eps","30 min","Animax",JP
+"Blade (2012)",Blade_2012,30524,Jan 2012,___ ____,"12 eps","30 min","G4",US
 "Blakes 7",Blakes7,2823,Jan 1978,Dec 1981,"52 eps","50 min","BBC1",UK
 "Blandings",Blandings,33853,Jan 2013,___ ____,"xx eps","30 min","BBC1",UK
 "Blansky's Beauties",BlanskysBeauties,47,Feb 1977,June 1977,"13 eps","30 min","ABC",US
-"Bleach",Bleach,2825,Oct 2004,___ ____,"xx eps","30 min","Adult Swim",US
 "Bleach",Bleach,2825,Oct 2004,___ ____,"xx eps","30 min",,JP
+"Bleach",Bleach,2825,Oct 2004,___ ____,"xx eps","30 min","Adult Swim",US
 "Bleak House (1959)",BleakHouse_1959,,Oct 1959,Dec 1959,"13 eps","30 min","BBC",UK
 "Bleak House (1985)",BleakHouse_1985,13195,Apr 1985,May 1985,"8 eps","50 min","BBC2",UK
 "Bleak House (2005)",BleakHouse,6760,Oct 2005,Dec 2005,"15 eps","30 min","BBC1",UK
@@ -723,7 +724,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Bob's Burgers",BobsBurgers,24607,Jan 2011,___ ____,"13+ eps","30 min","Fox",US
 "Bodies of Evidence",BodiesofEvidence,2862,Jun 1992,May 1993,"16 eps","60 min","CBS",US
 "Body & Soul",BodyandSoul,2863,Sep 2002,Nov 2002,"9 eps","60 min","Pax",US
-"The Body Farm",BodyFarm,29345,Sep 2011,___ ____,"xx eps","60 min","BBC1",UK
+"The Body Farm",BodyFarm,29345,Sep 2011,Oct 2011,"6 eps","60 min","BBC1",UK
 "Body Hits",BodyHits,2865,Jan 2004,Mar 2004,"13 eps","30 min","TechTV",US
 "Body of Proof",BodyofProof,25718,Mar 2011,May 2013,"42 eps","60 min","ABC",US
 "Body Work",BodyWork,2866,Jul 2004,Feb 2005,"20 eps","60 min","TLC",US
@@ -793,7 +794,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Brand X with Russell Brand",BrandXwithRussellBrand,31824,June 2012,May 2013,"26 eps","30 min","FX",US
 "Branded",Branded,2893,Jan 1965,Apr 1966,"48 eps","30 min","NBC",US
 "Brandy & Mr. Whiskers",BrandyandMrWhiskers,2895,Aug 2004,Aug 2006,"39 eps","30 min","Disney Channel",US
-"Braquo",Braquo,24507,Oct 2009,___ ____,"xx eps","50 min","Canal+",FR
+"Braquo",Braquo,24507,Oct 2009,Dec 2011,"16 eps","50 min","Canal+",FR
 "Brat Camp (UK)",BratCamp,2897,Jan 2005,Oct 2006,"19 eps","60 min","Channel 4",UK
 "Brat Camp (US)",BratCamp_US,2896,Jul 2005,Aug 2005,"7 eps","60 min","ABC",US
 "Brats of the Lost Nebula",BratsoftheLostNebula,2898,Oct 1998,Jan 1999,"13 eps","30 min","WB",US
@@ -829,7 +830,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Bringing Home Baby",BringingHomeBaby,19489,Feb 2005,Aug 2008,"181 eps","30 min","TLC",US
 "Bringing Up Buddy",BringingUpBuddy,16587,Oct 1960,June 1961,"35 eps","30 min","CBS",US
 "Bringing Up Jack",BringingupJack,2911,May 1995,Jun 1995,"5 eps","30 min","ABC",US
-"Bristol Palin: Life's a Tripp",BristolPalin,31024,June 2012,___ ____,"xx eps","30 min","Lifetime",US
+"Bristol Palin: Life's a Tripp",BristolPalin,31024,June 2012,July 2012,"14 eps","30 min","Lifetime",US
 "Britain's Got Talent",BritainsGotTalent,16137,June 2007,___ ____,"xx eps","60 min","ITV1",UK
 "Britain's Next Top Model",BritainsNextTopModel,14785,Sep 2005,___ ____,"xx eps","60 min","Living",UK
 "Britannia High",BritanniaHigh,20328,Oct 2008,Dec 2008,"9 eps","60 min","ITV1",UK
@@ -988,7 +989,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Caroline in the City",CarolineintheCity,2994,Sep 1995,Apr 1999,"97 eps","30 min","NBC",US
 "Carpoolers",Carpoolers,15711,Oct 2007,Mar 2008,"13 eps","30 min","ABC",US
 "The Carrie Diaries",CarrieDiaries,30716,Jan 2013,___ ____,"xx eps","60 min","CW",US
-"Carson Nation",CarsonNation,28670,June 2011,___ ____,"xx eps","60 min","OWN",US
+"Carson Nation",CarsonNation,28670,June 2011,Sep 2011,"6 eps","60 min","OWN",US
 "Carter Country",CarterCountry,2996,Sep 1977,June 1979,"44 eps","30 min","ABC",US
 "Casablanca (1955)",Casablanca_1955,2999,Sep 1955,Apr 1956,"10 eps","60 min","ABC",US
 "Casablanca (1983)",Casablanca_1983,3000,Apr 1983,Sep 1983,"5 eps","60 min","NBC",US
@@ -1031,7 +1032,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Celebrity Juice",CelebrityJuice,20089,Sep 2008,___ ____,"xx eps","60 min","ITV2",UK
 "Celebrity Paranormal Project",CelebrityParanormalProject,14358,Oct 2006,Dec 2006,"8 eps","60 min","VH-1",US
 "Celebrity Poker Showdown",CelebrityPokerShowdown,3020,Dec 2003,July 2006,"48 eps","60 min","Bravo",US
-"Celebrity Rehab with Dr. Drew",CelebrityRehabwithDrDrew,18166,Jan 2008,___ ____,"xx eps","60 min","VH-1",US
+"Celebrity Rehab with Dr. Drew",CelebrityRehabwithDrDrew,18166,Jan 2008,Nov 2012,"61 eps","60 min","VH-1",US
 "Centennial",Centennial,3021,Oct 1978,Feb 1979,"12 eps","120 min","NBC",US
 "Center of the Universe",CenteroftheUniverse,3022,Oct 2004,Jan 2005,"15 eps, 5 unaired","30 min","CBS",US
 "Central Park West",CentralParkWest,3023,Sep 1995,Jun 1996,"17 eps","60 min","CBS",US
@@ -1087,7 +1088,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Chefs vs. City",ChefsvsCity,22873,Aug 2009,Aug 2010,"20 eps","60 min","Food Network",US
 "Chelmsford 123",Chelmsford123,3046,Mar 1988,Feb 1990,"13 eps","30 min","Channel 4",UK
 "Chelsea Lately",ChelseaLately,18095,July 2007,___ ____,"xx eps","30 min","E!",US
-"Chemistry",Chemistry,29273,Aug 2011,___ ____,"13 eps","30 min","Cinemax",US
+"Chemistry",Chemistry,29273,Aug 2011,Nov 2011,"13 eps","30 min","Cinemax",US
 "Cher",Cher,3047,Feb 1975,Jan 1976,"29 eps","60 min","CBS",US
 "Cheyenne",Cheyenne,3049,Sep 1955,Dec 1962,"108 eps (b&w)","60 min","ABC",US
 "The Chicago Code",ChicagoCode,25051,Feb 2011,May 2011,"13 eps","60 min","Fox",US
@@ -1098,6 +1099,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Chicago Teddy Bears",ChicagoTeddyBears,16671,Sep 1971,Dec 1971,"13 eps","30 min","CBS",US
 "Chicken Soup",ChickenSoup,16755,Sep 1989,Nov 1989,"11 eps","30 min","ABC",US
 "Chicken Soup for the Soul",ChickenSoupfortheSoul,3053,Aug 1999,May 2000,"23 eps","60 min","Pax",US
+"Chickens",Chickens,29378,Aug 2013,___ ____,"xx eps","30 min","Sky One",UK
 "Chico and the Man",ChicoandtheMan,3054,Sep 1974,July 1978,"88 eps","30 min","NBC",US
 "Chigley",Chigley,,Oct 1969,Dec 1969,"13 eps","15 min","BBC1",UK
 "Children of the Dog Star",ChildrenoftheDogStar,32307,Apr 1984,May 1984,"6 eps","30 min","TV1",NZ
@@ -1115,7 +1117,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Choice",Choice,31689,June 2012,July 2012,"6 eps","60 min","Fox",US
 "The Choir",Choir,12711,Dec 2006,Feb 2008,"8 eps","60 min","BBC2",UK
 "Chopped",Chopped,20628,Jan 2009,___ ____,"xx eps","60 min","Food Network",US
-"Chopper One",ChopperOne,388,Jan 1974,Apr 1974,"13 eps","60 min","ABC",US
+"Chopper One",ChopperOne,388,Jan 1974,Apr 1974,"13 eps","30 min","ABC",US
 "Chopper Squad",ChopperSquad,3059,Nov 1976,Feb 1979,"26 eps + pilot","60 min","Network Ten",AU
 "The Chopping Block (Australia)",ChoppingBlockAustralia,18716,Feb 2008,Dec 2008,"16 eps","60 min","Nine Network",AU
 "The Chopping Block (US)",ChoppingBlock,20565,Mar 2009,Mar 2009,"4 eps","60 min","NBC",US
@@ -1294,8 +1296,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Cosmos",Cosmos,2231,Sep 1980,Dec 1980,"13 eps","60 min","PBS",US
 "Costello",Costello,3145,Sep 1998,Oct 1998,"8 eps, 4 unaired","30 min","Fox",US
 "The Cougar",Cougar,21899,Apr 2009,June 2009,"8 eps","60 min","TV Land",US
-"Cougar Town",CougarTown,22626,Sep 2009,___ ____,"76+ eps","30 min","TBS",US
 "Cougar Town",CougarTown,22626,Sep 2009,___ ____,"76+ eps","30 min","ABC",US
+"Cougar Town",CougarTown,22626,Sep 2009,___ ____,"76+ eps","30 min","TBS",US
 "Count Arthur Strong",CountArthurStrong,33983,July 2013,___ ____,"xx eps","30 min","BBC2",UK
 "Count Duckula",CountDuckula,3146,Sep 1988,Mar 1993,"65 eps","30 min","ITV",UK
 "The Count of Monte Cristo",CountofMonteCristo,5699,Feb 1956,Dec 1956,"39 eps","30 min","ITV",UK
@@ -1328,8 +1330,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Cracking Up",CrackingUp,3160,Mar 2004,Apr 2004,"12 eps","30 min","Fox",US
 "Craft Wars",CraftWars,31261,June 2012,___ ____,"xx eps","60 min","TLC",US
 "The Cramp Twins",CrampTwins,1945,Sep 2001,Aug 2006,"50 eps","30 min","BBC1",UK
-"Crank Yankers",CrankYankers,583,July 2002,Mar 2007,"70 eps","30 min","Comedy Central",US
 "Crank Yankers",CrankYankers,583,July 2002,Mar 2007,"70 eps","30 min","MTV2",US
+"Crank Yankers",CrankYankers,583,July 2002,Mar 2007,"70 eps","30 min","Comedy Central",US
 "Crash",Crash,3161,Oct 2008,Dec 2009,"26 eps","60 min","Starz",US
 "Crash & Bernstein",CrashandBernstein,31533,Oct 2012,___ ____,"xx eps","30 min","Disney XD",US
 "Crash Course (2009)",CrashCourse,22769,Aug 2009,Sep 2009,"4 eps","60 min","ABC",US
@@ -1359,8 +1361,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Crossroads (1955)",Crossroads_1955,3178,Oct 1955,June 1957,"78 eps","60 min","syndicated",US
 "Crossroads (1964)",Crossroads_1964,1919,Nov 1964,Apr 1988,"4510 eps","30 min","ITV",UK
 "Crossroads (1992)",Crossroads,3177,Sep 1992,July 1993,"12 eps","60 min","ABC",US
-"Crossroads (2001)",Crossroads_2001,1918,Mar 2001,Aug 2002,"402 eps","30 min","ITV",UK
 "Crossroads (2001)",Crossroads_2001,1918,Mar 2001,Aug 2002,"402 eps","30 min","ITV1",UK
+"Crossroads (2001)",Crossroads_2001,1918,Mar 2001,Aug 2002,"402 eps","30 min","ITV",UK
 "Crossroads (2003)",Crossroads_2003,899,Jan 2003,May 2003,"97 eps","30 min","ITV1",UK
 "The Crouches",Crouches,5705,Sep 2003,Feb 2005,"12 eps","30 min","BBC1",UK
 "The Crow: Stairway to Heaven",CrowStairwaytoHeaven,5706,Sep 1998,May 1999,"22 eps","60 min","syndicated",US
@@ -1433,8 +1435,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Dallas SWAT",DallasSWAT,7042,Jan 2006,Sep 2007,"33 eps","60 min","A&E",US
 "Dalton's Code of Vengeance",DaltonsCodeofVengeance,3212,Jun 1985,Aug 1986,"6 eps","60 min","NBC",US
 "Dalziel and Pascoe",DalzielandPascoe,3213,Mar 1996,June 2007,"60 eps","120 min","BBC1",UK
-"Damages",Damages,15422,Jul 2007,___ ____,"59 eps","60 min","DirecTV 101",US
 "Damages",Damages,15422,Jul 2007,___ ____,"59 eps","60 min","FX",US
+"Damages",Damages,15422,Jul 2007,___ ____,"59 eps","60 min","DirecTV 101",US
 "Dame Edna's Hollywood",DameEdnasHollywood,14580,Nov 1991,Jan 1993,"3 eps","60 min","NBC",US
 "Damon",Damon,3216,Mar 1998,Jul 1998,"13 eps","30 min","Fox",US
 "Dan August",DanAugust,10127,Sep 1970,Apr 1971,"26 eps","60 min","ABC",US
@@ -1522,8 +1524,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Deadline",Deadline,3262,Oct 2000,Oct 2002,"13 eps","60 min","Bravo",US
 "Deadline Midnight",DeadlineMidnight,13629,June 1960,Dec 1961,"39 eps","60 min","ITV",UK
 "Deadly Games",DeadlyGames,3263,Sep 1995,Jan 1996,"12 eps","60 min","UPN",US
-"Deadly Women",DeadlyWomen,23789,Feb 2005,___ ____,"xx eps","60 min","Discovery Channel",US
 "Deadly Women",DeadlyWomen,23789,Feb 2005,___ ____,"xx eps","60 min","ID",US
+"Deadly Women",DeadlyWomen,23789,Feb 2005,___ ____,"xx eps","60 min","Discovery Channel",US
 "Deadwood",Deadwood,3267,Mar 2004,Aug 2006,"36 eps + movies","60 min","HBO",US
 "Deal or No Deal",DealorNoDeal,18488,Dec 2005,May 2009,"203 eps","60 min","NBC",US
 "The Dean Martin Show",DeanMartinShow,5722,Sep 1965,Apr 1974,"261 eps","60 min","NBC",US
@@ -1533,8 +1535,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Dear Phoebe",DearPhoebe,1876,Sep 1954,Apr 1955,"31 eps","30 min","NBC",US
 "Death Comes to Town",DeathComestoTown,24450,Jan 2010,Mar 2010,"8 eps","30 min","CBC",CA
 "Death in Paradise",DeathinParadise,29741,Oct 2011,___ ____,"16+ eps","60 min","BBC1",UK
-"Death Note",DeathNote,13555,Oct 2006,Aug 2007,"38 eps","30 min","Adult Swim",US
 "Death Note",DeathNote,13555,Oct 2006,Aug 2007,"38 eps","30 min","Nippon",JP
+"Death Note",DeathNote,13555,Oct 2006,Aug 2007,"38 eps","30 min","Adult Swim",US
 "Death Valley",DeathValley,28446,Aug 2011,Nov 2011,"12 eps","30 min","MTV",US
 "The Debbie Reynolds Show",DebbieReynoldsShow,119,Sep 1969,Apr 1970,"26 eps","30 min","NBC",US
 "December Bride",DecemberBride,43,Oct 1954,Sep 1959,"157 eps","30 min","CBS",US
@@ -1547,8 +1549,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Defenders (1961)",Defenders,20,Sep 1961,May 1965,"132 eps","60 min","CBS",US
 "The Defenders (2010)",Defenders_2010,25663,Sep 2010,Mar 2011,"18 eps","60 min","CBS",US
 "Defiance",Defiance,30724,Apr 2013,___ ____,"12+ eps","60 min","Syfy",US
-"Defying Gravity",DefyingGravity,23125,Aug 2009,Oct 2009,"13 eps","60 min","Space",CA
 "Defying Gravity",DefyingGravity,23125,Aug 2009,Oct 2009,"13 eps","60 min","CTV",CA
+"Defying Gravity",DefyingGravity,23125,Aug 2009,Oct 2009,"13 eps","60 min","Space",CA
 "Degrassi Junior High",DegrassiJuniorHigh,3277,Jan 1987,Jan 1992,"70 eps & movie","30 min","PBS",US
 "Degrassi Junior High",DegrassiJuniorHigh,3277,Jan 1987,Jan 1992,"70 eps & movie","30 min","CBC",CA
 "Degrassi: The Next Generation",DegrassiTheNextGeneration,3275,Oct 2001,___ ____,"xx eps","60 min","CTV",CA
@@ -1630,8 +1632,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Distant Shores",DistantShores,2361,Jan 2005,May 2006,"12 eps","60 min","ITV1",UK
 "The District",District,5727,Oct 2000,May 2004,"89 eps","60 min","CBS",US
 "The Division",Division,5728,Jan 2001,June 2004,"88 eps","60 min","Lifetime",US
-"Dixon of Dock Green",DixonofDockGreen,3325,July 1955,May 1976,"434 eps","30 min","BBC",UK
 "Dixon of Dock Green",DixonofDockGreen,3325,July 1955,May 1976,"434 eps","30 min","BBC1",UK
+"Dixon of Dock Green",DixonofDockGreen,3325,July 1955,May 1976,"434 eps","30 min","BBC",UK
 "DJ & the Fro",DJandtheFro,22848,May 2009,July 2009,"12 eps","30 min","MTV",US
 "Do No Harm",DoNoHarm,31647,Jan 2013,,"12 eps","60 min","NBC",US
 "Do Not Disturb",DoNotDisturb,19011,Sep 2008,Sep 2008,"6 eps","30 min","Fox",US
@@ -1698,7 +1700,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Downtown Girls",DowntownGirls,24649,June 2010,July 2010,"6 eps","30 min","MTV",US
 "Downwardly Mobile",DownwardlyMobile,3357,Jul 1994,Sep 1994,"7 eps","30 min","ITV",UK
 "Dr. Finlay's Casebook",DrFinlaysCasebook,991,Aug 1962,Jan 1971,"191 eps","50 min","BBC1",UK
-"Dr. G: Medical Examiner",DrG,3359,July 2004,___ ____,"xx eps","60 min","Discovery Health",US
+"Dr. G: Medical Examiner",DrG,3359,July 2004,Feb 2012,"96 eps","60 min","Discovery Health",US
 "Dr Terrible's House of Horrible",DrTerriblesHouseofHorrible,1781,Nov 2001,Dec 2001,"6 eps","30 min","BBC2",UK
 "Dr Willoughby",DrWilloughby,3390,Nov 1999,Dec 1999,"6 eps","30 min","ITV",UK
 "Dr. 90210",Dr90210,3358,July 2004,Nov 2008,"75 eps","30 min","E!",US
@@ -1706,8 +1708,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Dr. Quinn, Medicine Woman",DrQuinnMedicineWoman,3362,Jan 1993,May 1998,"147 eps & reunions","60 min","CBS",US
 "Dr. Shrinker",DrShrinker,,Sep 1976,Jan? 1977,"16 eps","15 min","ABC",US
 "Dr. Vegas",DrVegas,3365,Sep 2004,Oct 2004,"10 eps, 5 unaired","60 min","CBS",US
-"Dracula (2013)",Dracula,32370,Sep 2013,___ ____,"10 eps","60 min","Sky One",UK
 "Dracula (2013)",Dracula,32370,Sep 2013,___ ____,"10 eps","60 min","NBC",US
+"Dracula (2013)",Dracula,32370,Sep 2013,___ ____,"10 eps","60 min","Sky One",UK
 "Dracula: The Series",DraculaTheSeries,3366,Sep 1990,May 1991,"21 eps","30 min","syndicated",US
 "Dragnet (1951)",Dragnet_1951,3368,Dec 1951,Aug 1959,"276 eps","30 min","NBC",US
 "Dragnet (1967)",Dragnet,3367,Jan 1967,Apr 1970,"98 eps","30 min","NBC",US
@@ -1737,7 +1739,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Drive (2007)",Drive,10257,Apr 2007,Apr 2007,"6 eps","60 min","Fox",US
 "Driving Force",DrivingForce,7229,July 2006,May 2007,"24 eps","30 min","A&E",US
 "Droids",Droids,3388,Sep 1985,Jun 1986,"15 eps","30 min","ABC",US
-"Drop Dead Diva",DropDeadDiva,21886,July 2009,___ ____,"39+ eps","60 min","Lifetime",US
+"Drop Dead Diva",DropDeadDiva,21886,July 2009,___ ____,"60+ eps","60 min","Lifetime",US
 "Drop the Dead Donkey",DroptheDeadDonkey,3389,Aug 1990,Dec 1998,"65 eps","30 min","Channel 4",UK
 "Drugs, Inc.",DrugsInc,25909,July 2010,___ ____,"xx eps","60 min","National Geographic",US
 "Drunk History",DrunkHistory,36291,July 2013,___ ____,"xx eps","30 min","Comedy Central",US
@@ -1866,8 +1868,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Estate of Panic",EstateofPanic,19647,Nov 2008,Dec 2008,"6 eps","60 min","Syfy",US
 "Eternal Law",EternalLaw,30377,Jan 2012,Feb 2012,"6 eps","60 min","ITV1",UK
 "Eureka",Eureka,7506,Jul 2006,Jul 2012,"77 eps","60 min","Syfy",US
-"Eureka Seven",EurekaSeven,12376,Apr 2006,Apr 2007,"50 eps","30 min","Adult Swim",US
 "Eureka Seven",EurekaSeven,12376,Apr 2006,Apr 2007,"50 eps","30 min",,JP
+"Eureka Seven",EurekaSeven,12376,Apr 2006,Apr 2007,"50 eps","30 min","Adult Swim",US
 "Eve",Eve,3460,Sep 2003,May 2006,"66 eps","30 min","UPN",US
 "Even Stevens",EvenStevens,3462,June 2000,June 2003,"65 eps & movie","30 min","Disney Channel",US
 "Evening Shade",EveningShade,3461,Sep 1990,May 1994,"100 eps","30 min","CBS",US
@@ -2164,8 +2166,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Freshman Diaries",FreshmanDiaries,3611,Aug 2003,Nov 2003,"10 eps","30 min","Showtime",US
 "Freshman Dorm",FreshmanDorm,3612,Aug 1992,Sep 1992,"5 eps","30 min","CBS",US
 "Friday Night Dinner",FridayNightDinner,27623,Feb 2011,___ ____,"xx eps","30 min","Channel 4",UK
-"Friday Night Lights",FridayNightLights,7990,Sep 2006,Feb 2011,"76 eps","60 min","DirecTV 101",US
 "Friday Night Lights",FridayNightLights,7990,Sep 2006,Feb 2011,"76 eps","60 min","NBC",US
+"Friday Night Lights",FridayNightLights,7990,Sep 2006,Feb 2011,"76 eps","60 min","DirecTV 101",US
 "The Friday Night Project",FridayNightProject,7127,Feb 2005,Feb 2009,"77 eps","60/65 min","Channel 4",UK
 "Friday Night with Jonathan Ross",FridayNightwithJonathanRoss,3613,Nov 2001,July 2010,"280 eps","40-60 min","BBC1",UK
 "Friday the 13th: The Series",Fridaythe13ththeSeries,3615,Oct 1987,May 1990,"72 eps","60 min","syndicated",US
@@ -2180,7 +2182,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Frontline (1994)",Frontline,3619,May 1994,May 1997,"39 eps","30 min","ABC",AU
 "Frost in the Air",FrostintheAir,,Aug 1993,Sep 1993,"3 eps","55 min","BBC2",UK
 "The Frost Report",FrostReport,8897,Mar 1966,Dec 1967,"28 eps","30 min","BBC1",UK
-"Frozen Planet",FrozenPlanet,27911,Oct 2011,___ ____,"xx eps","60 min","BBC1",UK
+"Frozen Planet",FrozenPlanet,27911,Oct 2011,Dec 2011,"11 eps","60 min","BBC1",UK
+"Fruits Basket",FruitsBasket,983,July 2001,Sep 2011,"26 eps","30 min","TV Tokyo",JP
 "Fry's Planet Word",FrysPlanetWord,27909,Sep 2011,___ ____,"5 eps","60 min","BBC2",UK
 "Fudge",Fudge,3621,Jan 1995,Dec 1995,"25 eps & movie","30 min","ABC",US
 "The Fugitive (1963)",Fugitive,5797,Sep 1963,Aug 1967,"120 eps","60 min","ABC",US
@@ -2219,8 +2222,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Gallant Men",GallantMen,5801,Oct 1962,Mar 1963,"26 eps","60 min","ABC",US
 "Gallegher",Gallegher,,Jan 1965,Mar 1968,"12 eps","60 min","NBC",US
 "Gallery Girls",GalleryGirls,32045,Aug 2012,___ ____,"xx eps","60 min","Bravo",US
-"The Game",Game,8159,Sep 2006,___ ____,"99+ eps","30 min","BET",US
 "The Game",Game,8159,Sep 2006,___ ____,"99+ eps","30 min","CW",US
+"The Game",Game,8159,Sep 2006,___ ____,"99+ eps","30 min","BET",US
 "Game of Thrones",GameofThrones,24493,Apr 2011,___ ____,"30+ eps","60 min","HBO",US
 "Game On!",GameOn,3641,Feb 1995,Feb 1998,"18 eps","30 min","BBC2",UK
 "Game Over",GameOver,3642,Mar 2004,Apr 2004,"6 eps, 1 unaired","30 min","UPN",US
@@ -2646,6 +2649,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Herman's Head",HermansHead,3839,Sep 1991,Apr 1994,"72 eps","30 min","Fox",US
 "The Hero",Hero,32751,June 2013,___ ____,"xx eps","60 min","TNT",US
 "Heroes",Heroes,8172,Sep 2006,Feb 2010,"78 eps","60 min","NBC",US
+"Heroes of Cosplay",HeroesofCosplay,36738,Aug 2013,___ ____,"xx eps","60 min","Syfy",US
 "Heroes Unmasked",HeroesUnmasked,17010,Jul 2007,Dec 2008,"44 eps","20 min","BBC2",UK
 "Hetty Wainthropp Investigates",HettyWainthroppInvestigates,3840,May 1990,Mar 1999,"27 eps & pilot & special","60 min","BBC1",UK
 "Hex",Hex,3841,Oct 2004,Dec 2005,"18 eps","60 min","Sky One",UK
@@ -2723,7 +2727,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Hollywood Safari",HollywoodSafari,3880,Jul 1998,Dec 1998,"22 eps","60 min","Animal Planet",US
 "Hollywood Treasure",HollywoodTreasure,26761,Oct 2010,___ ____,"xx eps","30 min","Syfy",US
 "Holmes and Yoyo",HolmesandYoyo,3881,Sep 1976,Aug 1977,"13 eps","30 min","ABC",US
-"Holmes Inspection",HolmesInspection,27144,Oct 2009,___ ____,"xx eps","60 min","HGTV",CA
+"Holmes Inspection",HolmesInspection,27144,Oct 2009,Jan 2012,"49 eps","60 min","HGTV",CA
 "Holmes on Homes",HolmesonHomes,14611,Jan 2004,July 2008,"92 eps","60 min","HGTV",CA
 "Home and Away",HomeandAway,3882,Jan 1988,___ ____,"xx eps","30 min","Seven Network",AU
 "The Home Court",HomeCourt,5857,Sep 1995,Jun 1996,"20 eps","30 min","NBC",US
@@ -2817,6 +2821,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Hugh and I Spy",HughandISpy,8743,Jan 1968,Feb 1968,"6 eps","30 min","BBC1",UK
 "The Hughleys",Hughleys,5863,Sep 1998,May 2002,"89 eps","30 min","ABC",US
 "The Hughleys",Hughleys,5863,Sep 1998,May 2002,"89 eps","30 min","UPN",US
+"Hulk and the Agents of S.M.A.S.H.",HulkandtheAgentsofSMASH,31477,Aug 2013,___ ____,"xx eps","30 min","Disney XD",US
 "Hulk Hogan's Micro Championship Wrestling",HulkHogansMicroChampionshipWrestling,29117,Sep 2011,Oct 2011,"5 eps","60 min","TruTV",US
 "Hulk Hogan's Rock 'n' Wrestling",HulkHogansRocknWrestling,3927,Sep 1985,Oct 1986,"38 eps","60 min","CBS",US
 "Hull High",HullHigh,3928,Aug 1990,Dec 1990,"8 eps","60 min","NBC",US
@@ -2833,8 +2838,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Hunted",Hunted,32213,Oct 2012,___ ____,"8+ eps","60 min","BBC1",UK
 "Hunter (1984)",Hunter,3930,Sep 1984,Apr 1991,"153 eps + movies","60 min","NBC",US
 "Hunter (2003)",Hunter_2003,979,Apr 2003,May 2003,"5 eps + 2 movies","60 min","NBC",US
-"Huntik: Secrets & Seekers",Huntik,25220,Jan 2009,___ ____,"52 eps","30 min","CITV",UK
 "Huntik: Secrets & Seekers",Huntik,25220,Jan 2009,___ ____,"52 eps","30 min","CW",US
+"Huntik: Secrets & Seekers",Huntik,25220,Jan 2009,___ ____,"52 eps","30 min","CITV",UK
 "Huntik: Secrets & Seekers",Huntik,25220,Jan 2009,___ ____,"52 eps","30 min","Nicktoons",US
 "The Huntress",Huntress,5866,Mar 2000,Sep 2001,"28 eps & movie","60 min","USA",US
 "Hurl!",Hurl,19185,July 2008,Sep 2008,"11 eps","30 min","G4",US
@@ -2894,6 +2899,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "I'm in a Rock 'n' Roll Band!",IminaRocknRollBand,25539,May 2010,___ ____,"xx eps","60 min","BBC2",UK
 "I'm in the Band",ImintheBand,24576,Nov 2009,Dec 2011,"42 eps","30 min","Disney XD",US
 "I'm Pregnant and ...",ImPregnantand,24419,Dec 2009,___ ____,"xx eps","30 min","Discovery Health",US
+"I'm Spazticus",ImSpazticus,32614,Aug 2012,___ ____,"xx eps","30 min","Channel 4",UK
 "I'm the Law",ImtheLaw,,Feb 1953,July 1953,"24 eps","30 min","syndicated",US
 "I'm with Her",ImwithHer,3939,Sep 2003,Apr 2004,"22 eps","30 min","ABC",US
 "I'm with Stupid",ImwithStupid,12777,Mar 2005,Oct 2006,"7 eps","30 min","BBC3",UK
@@ -2929,7 +2935,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Inbetweeners (UK)",Inbetweeners,18753,May 2008,___ ____,"xx eps","30 min","E4",UK
 "The Inbetweeners (US)",Inbetweeners_2012,32126,Aug 2012,Nov 2012,"12 eps","30 min","MTV",US
 "Inconceivable",Inconceivable,3954,Sep 2005,Sep 2005,"9 eps, 2 unaired","60 min","NBC",US
-"The Increasingly Poor Decisions of Todd Margaret",IncreasinglyPoorDecisionsofToddMargaret,25891,Oct 2010,___ ____,"6+ eps","30 min","IFC",US
+"The Increasingly Poor Decisions of Todd Margaret",IncreasinglyPoorDecisionsofToddMargaret,25891,Oct 2010,Feb 2012,"12 eps","30 min","IFC",US
 "Incredible Crash Dummies",IncredibleCrashDummies,3955,Feb 2004,May 2005,"30 eps","1 min","Fox",US
 "Incredible Crew",IncredibleCrew,33976,Dec 2012,___ ____,"xx eps","30 min","Cartoon Network",US
 "The Incredible Dr. Pol",IncredibleDrPol,29767,Oct 2011,___ ____,"xx eps","60 min","National Geographic",US
@@ -2980,8 +2986,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Invisible Man (1958)",InvisibleMan_1958,3770,Sep 1958,Jul 1959,"26 eps & pilot","30 min","ITV",UK
 "The Invisible Man (1975)",InvisibleMan_1975,5879,May 1975,Jan 1976,"13 eps","60 min","NBC",US
 "The Invisible Man (2000)",InvisibleMan_2000,5877,June 2000,Feb 2002,"46 eps","60 min","Syfy",US
-"Iron Chef",IronChef,3993,Oct 1993,Jan 1996?,"105? eps","60 min","Food Network",US
 "Iron Chef",IronChef,3993,Oct 1993,Jan 1996?,"105? eps","60 min","Fuji",JP
+"Iron Chef",IronChef,3993,Oct 1993,Jan 1996?,"105? eps","60 min","Food Network",US
 "Iron Chef America",IronChefAmerica,3994,Mar 2005,___ ____,"xx eps","60 min","Food Network",US
 "Iron Chef UK",IronChefUK,25498,Apr 2010,___ ____,"xx eps","60 min","Channel 4",UK
 "The Iron Horse",IronHorse,240,Sep 1966,Jan 1968,"47 eps","60 min","ABC",US
@@ -3056,8 +3062,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Jane Show",JaneShow,2346,Dec 2004,May 2007,"28 eps","30 min","Global",CA
 "Janek",Janek,,Nov 1985,Dec 1994,"7 eps","120 min","CBS",US
 "The Janice Dickinson Modeling Agency",JaniceDickinsonModelingAgency,7104,Jun 2006,Oct 2008,"43 eps","60 min","Oxygen",US
-"Japanorama",Japanorama,10158,June 2002,Apr 2007,"18 eps","30 min","BBC3",UK
 "Japanorama",Japanorama,10158,June 2002,Apr 2007,"18 eps","30 min","BBC Choice",UK
+"Japanorama",Japanorama,10158,June 2002,Apr 2007,"18 eps","30 min","BBC3",UK
 "The Jaquie Brown Diaries",JaquieBrownDiaries,19708,July 2008,Dec 2009,"14 eps","30 min","TV3 ",NZ
 "Jason King",JasonKing,250,Sep 1971,Apr 1972,"26 eps","60 min","ITV",UK
 "Jason of Star Command",JasonofStarCommand,1736,Sep 1978,Dec 1979,"28 eps","20 min/30 min","CBS",US
@@ -3124,8 +3130,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Johnny Cash Show",JohnnyCashShow,17530,June 1969,Mar 1971,"58 eps","60 min","ABC",US
 "Johnny Ringo",JohnnyRingo,4067,Oct 1959,Jun 1960,"38 eps","30 min","CBS",US
 "Johnny Staccato",JohnnyStaccato,4068,Sep 1959,Mar 1960,"27 eps","30 min","NBC",US
-"Johnny Test",JohnnyTest,4069,Sep 2005,Mar 2008,"35 eps","30 min","WB",US
 "Johnny Test",JohnnyTest,4069,Sep 2005,Mar 2008,"35 eps","30 min","CW",US
+"Johnny Test",JohnnyTest,4069,Sep 2005,Mar 2008,"35 eps","30 min","WB",US
 "JoJo's Circus",JoJosCircus,4072,Sep 2003,Sep 2006,"61 eps","30 min","Disney Channel",US
 "Jon & Kate Plus 8",JonandKatePlus8,15501,Apr 2007,Nov 2009,"120 eps","60 min","Discovery Health",US
 "Jon & Kate Plus 8",JonandKatePlus8,15501,Apr 2007,Nov 2009,"120 eps","60 min","TLC",US
@@ -3140,8 +3146,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Josie and the Pussycats",JosieandthePussycats,4077,Sep 1970,Jan 1971,"16 eps","30 min","CBS",US
 "Josie and the Pussycats in Outer Space",JosieandthePussycatsinOuter,4078,Sep 1972,Dec 1972,"16 eps",,"CBS",US
 "The Journey of Allen Strange",JourneyofAllenStrange,5901,Nov 1997,Apr 2000,"57 eps & movie","30 min","Nick",US
-"Journey to the Unknown",JourneytotheUnknown,8336,Apr 1969,Mar 1970,"17 eps","60 min","ABC",US
 "Journey to the Unknown",JourneytotheUnknown,8336,Apr 1969,Mar 1970,"17 eps","60 min","ITV1",UK
+"Journey to the Unknown",JourneytotheUnknown,8336,Apr 1969,Mar 1970,"17 eps","60 min","ABC",US
 "Journeyman",Journeyman,15189,Sep 2007,Dec 2007,"13 eps","60 min","NBC",US
 "Jozi-H",JoziH,14654,Oct 2006,Feb 2007,"13 eps","60 min","CBC",CA
 "jPod",jPod,18143,Jan 2008,Apr 2008,"13 eps","60 min","CBC",CA
@@ -3280,7 +3286,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Kong: The Animated Series",Kong,4157,May 2001,2001?,"41? eps","30 min","Fox",US
 "Kong: The Animated Series",Kong,4157,May 2001,2001?,"41? eps","30 min","Teletoon",CA
 "Kourtney and Khloe Take Miami",KourtneyandKhloeTakeMiami,23204,Aug 2009,___ ____,"xx eps","30 min","E!",US
-"Kourtney and Kim Take New York",KourtneyandKimTakeNewYork,27220,Jan 2011,___ ____,"xx eps","30 min","E!",US
+"Kourtney and Kim Take New York",KourtneyandKimTakeNewYork,27220,Jan 2011,Jan 2012,"20 eps","30 min","E!",US
 "The Koz Zone",KozZone,,July 1989,May 1990,"42 airings","120 min","WFLD Chicago",US
 "The Kraft Music Hall",KraftMusicHall,4158,Oct 1958,Sep 1971,"206 eps","60 min","NBC",US
 "Kristin",Kristin,4159,June 2001,July 2001,"13 eps, 7 unaired","30 min","NBC",US
@@ -3370,8 +3376,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Law & Order: LA",LawandOrderLosAngeles,,Sep 2010,May 2011,"22 eps","60 min","NBC",US
 "Law & Order: Special Victims Unit",LawandOrderSVU,4204,Sep 1999,___ ____,"300+ eps","60 min","NBC",US
 "Law & Order: Trial by Jury",LawandOrderTrialbyJury,4205,Mar 2005,Aug 2005,"13 eps","60 min","NBC",US
-"Law & Order: UK",LawandOrderUK,18198,Feb 2009,___ ____,"26+ eps","60 min","CityTV",CA
 "Law & Order: UK",LawandOrderUK,18198,Feb 2009,___ ____,"26+ eps","60 min","ITV1",UK
+"Law & Order: UK",LawandOrderUK,18198,Feb 2009,___ ____,"26+ eps","60 min","CityTV",CA
 "The Law Firm",LawFirm,5917,Jul 2005,Aug 2005,"8 eps, 5 unaired","60 min","Bravo",US
 "The Law Firm",LawFirm,5917,Jul 2005,Aug 2005,"8 eps, 5 unaired","60 min","NBC",US
 "Law of the Plainsman",LawofthePlainsman,4208,Oct 1959,May 1960,"30 eps (b&w)","30 min","NBC",US
@@ -3386,8 +3392,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Lazy Environmentalist",LazyEnvironmentalist,22653,June 2009,June 2011,"15 eps","30 min","Sundance",US
 "LazyTown",LazyTown,4211,Aug 2004,2007,"51? eps","30 min","Nick",US
 "LazyTown",LazyTown,4211,Aug 2004,2007,"51? eps","30 min","Iceland",IS
-"Lead Balloon",LeadBalloon,13922,Oct 2006,___ ____,"12+ eps","30 min","BBC2",UK
 "Lead Balloon",LeadBalloon,13922,Oct 2006,___ ____,"12+ eps","30 min","BBC4",UK
+"Lead Balloon",LeadBalloon,13922,Oct 2006,___ ____,"12+ eps","30 min","BBC2",UK
 "The League",League,24173,Oct 2009,___ ____,"32+ eps","30 min","FXX",US
 "The League",League,24173,Oct 2009,___ ____,"32+ eps","30 min","FX",US
 "The League of Gentlemen",LeagueofGentlemen,5918,Nov 1997,Oct 2002,"26 eps + 2 specials","30 min","BBC2",UK
@@ -3495,8 +3501,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Lipstick Jungle",LipstickJungle,7887,Feb 2008,Jan 2009,"20 eps","60 min","NBC",US
 "Lisa Williams: Life Among the Dead",LisaWilliamsLifeAmongtheDead,17907,Oct 2006,Nov 2007,"13 eps","60 min","Lifetime",US
 "Listen Up",ListenUp,4253,Sep 2004,Apr 2005,"22 eps","30 min","CBS",US
-"The Listener",Listener,18689,Mar 2009,___ ____,"39+ eps","60 min","FX",UK
 "The Listener",Listener,18689,Mar 2009,___ ____,"39+ eps","60 min","CTV",CA
+"The Listener",Listener,18689,Mar 2009,___ ____,"39+ eps","60 min","FX",UK
 "Little Bear",LittleBear,1577,1995,2000,"65 eps","30 min","CBC",CA
 "Little Bill",LittleBill,4254,Nov 1999,Feb 2004,"47 eps","30 min","Nick",US
 "Little Britain",LittleBritain,4255,Sep 2003,Mar 2005,"18 eps","30 min","BBC3",UK
@@ -3527,8 +3533,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Living in Your Car",LivinginYourCar,24531,May 2010,___ ____,"xx eps","30 min","HBO Canada",CA
 "Living Lohan",LivingLohan,18865,May 2008,July 2008,"9 eps","30 min","E!",US
 "Living Single",LivingSingle,4266,Aug 1993,Jan 1998,"118 eps","30 min","Fox",US
-"Living with Ed",LivingwithEd,16959,Jan 2007,Feb 2010,"32 eps","30 min","Planet Green",US
 "Living with Ed",LivingwithEd,16959,Jan 2007,Feb 2010,"32 eps","30 min","HGTV",US
+"Living with Ed",LivingwithEd,16959,Jan 2007,Feb 2010,"32 eps","30 min","Planet Green",US
 "Living with Fran",LivingwithFran,4267,Apr 2005,Mar 2006,"26 eps","30 min","WB",US
 "Lizard Lick Towing",LizardLickTowing,27240,Dec 2010,___ ____,"xx eps","30 min","TruTV",US
 "Lizzie McGuire",LizzieMcGuire,4269,Jan 2001,Feb 2004,"65 eps","30 min","Disney Channel",US
@@ -3576,7 +3582,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Lost in Austen",LostinAusten,19840,Sep 2008,Sep 2008,"4 eps","60 min","ITV1",UK
 "Lost in Space",LostinSpace,4286,Sep 1965,Mar 1968,"83 eps & pilot","60 min","CBS",US
 "The Lost Room",LostRoom,14688,Dec 2006,Dec 2006,"3 eps","120 min","Syfy",US
-"Lost Tapes",LostTapes,21191,Oct 2008,___ ____,"24+ eps","30 min","Animal Planet",US
+"Lost Tapes",LostTapes,21191,Oct 2008,Nov 2010,"34 eps","30 min","Animal Planet",US
 "Lost Worlds",LostWorlds,13373,July 2006,Dec 2007,"32 eps","60 min","History",US
 "The Lot",Lot,5950,Aug 1999,Apr 2001,"17 eps","30 min","AMC",US
 "Lotsa Luck",LotsaLuck,8299,Sep 1973,Mar 1974,"22 eps","30 min","NBC",US
@@ -3614,7 +3620,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Lovejoy",Lovejoy,4301,Jan 1986,Dec 1994,"69 eps, 2 specials","50 min","BBC1",UK
 "The Lovers",Lovers,5954,Oct 1970,Dec 1971,"15 eps","30 min","ITV",UK
 "Lovespring International",LovespringInternational,11190,Jun 2006,Sep 2006,"12 eps, 1 unaired","30 min","Lifetime",US
-"Low Winter Sun",LowWinterSun,31590,Aug 2013,___ ____,"xx eps","60 min","AMC",US
+"Low Winter Sun",LowWinterSun,31590,Aug 2013,___ ____,"10 eps","60 min","AMC",US
 "Lucan",Lucan,4307,Sep 1977,Dec 1978,"11 eps + pilot","60 min","ABC",US
 "Lucas Tanner",LucasTanner,416,Sep 1974,Apr 1975,"22 eps","60 min","NBC",US
 "Luck",Luck,25055,Dec 2011,Mar 2012,"9 eps","60 min","HBO",US
@@ -3625,7 +3631,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Lucy Sullivan Is Getting Married",LucySullivanIsGettingMarried,4309,Nov 1999,Jan 2001,"16 eps","30 min","ITV",UK
 "Lucy: The Daughter of the Devil",Lucy,10099,Oct 2005,Nov 2007,"11 eps","15 min","Adult Swim",US
 "The Lucy-Desi Comedy Hour",LucyDesiComedyHour,5955,Nov 1957,Apr 1960,"13 eps","60 min","CBS",US
-"Ludo Bites America",LudoBitesAmerica,28685,July 2011,___ ____,"xx eps","60 min","Sundance",US
+"Ludo Bites America",LudoBitesAmerica,28685,July 2011,Aug 2011,"7 eps","60 min","Sundance",US
 "Luis",Luis,4310,Sep 2003,Oct 2003,"10 eps","30 min","Fox",US
 "Luke's Kingdom",LukesKingdom,4311,Mar 1976,Jun 1976,"13 eps","60 min","Nine Network",AU
 "Luke's Kingdom",LukesKingdom,4311,Mar 1976,Jun 1976,"13 eps","60 min","ITV",UK
@@ -3663,7 +3669,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Maggie and the Ferocious Beast",MaggieandtheFerociousBeast,4333,Jun 2000,?,"39 eps","30 min","Teletoon",CA
 "Maggie Winters",MaggieWinters,4334,Sep 1998,Feb 1999,"18 eps","30 min","CBS",US
 "The Magic Boomerang",MagicBoomerang,11548,Mar 1965,Aug 1966,"45 eps","30 min","ABC",AU
-"Magic City",MagicCity,29628,Apr 2012,___ ____,"8+ eps","60 min","Starz",US
+"Magic City",MagicCity,29628,Apr 2012,Aug 2013,"16 eps","60 min","Starz",US
 "Magical DoReMi",MagicalDoReMi,7055,Sep 2005,___ ____,"eps","30 min","Fox Kids",US
 "Magical DoReMi",MagicalDoReMi,7055,Sep 2005,___ ____,"eps","30 min",,JP
 "The Magician (1973)",Magician,5959,Mar 1973,Apr 1974,"22 eps","60 min","NBC",US
@@ -3944,8 +3950,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "A Minute with Stan Hooper",MinutewithStanHooper,2604,Oct 2003,Dec 2003,"13 eps, 7 unaired","30 min","Fox",US
 "Miracle Workers",MiracleWorkers,6945,Mar 2006,Apr 2006,"5 eps","60 min","ABC",US
 "Miracles",Miracles,4478,Jan 2003,Mar 2003,"13 eps, 7 unaired","60 min","ABC",US
-"Miranda",Miranda,24313,Nov 2009,___ ____,"6 eps","30 min","BBC1",UK
-"Miranda",Miranda,24313,Nov 2009,___ ____,"6 eps","30 min","BBC2",UK
+"Miranda",Miranda,24313,Nov 2009,___ ____,"18 eps + special","30 min","BBC2",UK
+"Miranda",Miranda,24313,Nov 2009,___ ____,"18 eps + special","30 min","BBC1",UK
 "The Misadventures of Sheriff Lobo",MisadventuresofSheriffLobo,5985,Sep 1979,May 1981,"37 eps",,"NBC",US
 "Misery Loves Company",MiseryLovesCompany,4480,Oct 1995,Oct 1995,"8 eps, 4 unaired",,"Fox",US
 "Misfits",Misfits,8784,Nov 2009,___ ____,"21+ eps","60 min","E4",UK
@@ -3985,6 +3991,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Mod Squad",ModSquad,5986,Sep 1968,Mar 1973,"124 eps & reunion movie","60 min","ABC",US
 "Model Citizens",ModelCitizens,4503,Oct 2004,Nov 2004,"7 eps","60 min","Pax",US
 "Models Inc.",ModelsInc,4504,Jun 1994,Mar 1995,"29 eps","60 min","Fox",US
+"Modern Dads",ModernDads,35720,Aug 2013,___ ____,"xx eps","30 min","A&E",US
 "Modern Family",ModernFamily,22622,Sep 2009,___ ____,"xx eps","30 min","ABC",US
 "Modern Marvels",ModernMarvels,4505,Jan 1995,___ ____,"xx eps","60 min","History",US
 "Modern Marvels",ModernMarvels,4505,Jan 1995,___ ____,"xx eps","60 min","A&E",US
@@ -4011,7 +4018,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Monkey",Monkey,454,Oct 1978,May 1980,"52 eps",,,JP
 "Monkey Dust",MonkeyDust,1143,Feb 2003,Feb 2005,"18 eps","30 min","BBC3",UK
 "Monkey Magic",MonkeyMagic,4515,Sep 1998,Dec 1998,"13 eps","30 min","syndicated",US
-"Monroe",Monroe,27668,Mar 2011,___ ____,"6 eps","60 min","ITV1",UK
+"Monroe",Monroe,27668,Mar 2011,Nov 2012,"12 eps","60 min","ITV1",UK
 "The Monroes (1966)",Monroes,5991,Sep 1966,Mar 1967,"26 eps","60 min","ABC",US
 "The Monroes (1995)",Monroes_1995,525,Sep 1995,Oct 1995,"8 eps","60 min","ABC",US
 "Monster Buster Club",MonsterBusterClub,,Jun 2008,Nov 2009,"52 eps","30 min","Toon Disney",US
@@ -4056,8 +4063,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Most Eligible: Dallas",MostEligibleDallas,28993,Aug 2011,Oct 2011,"8 eps","60 min","Bravo",US
 "The Most Extreme",MostExtreme,2054,Jul 2002,Feb 2008,"92 eps","30 min","Animal Planet",US
 "Most Haunted",MostHaunted,4532,May 2002,July 2010,"300+ eps","60 min","Living",UK
-"Most Shocking",MostShocking,16327,Oct 2006,Sep 2010,"50? eps","60 min","Court TV",US
 "Most Shocking",MostShocking,16327,Oct 2006,Sep 2010,"50? eps","60 min","TruTV",US
+"Most Shocking",MostShocking,16327,Oct 2006,Sep 2010,"50? eps","60 min","Court TV",US
 "Most Wanted",MostWanted,7016,Oct 1976,Aug 1977,"21 eps","60 min","ABC",US
 "Mostly True Stories: Urban Legends Revealed",MostlyTrueStoriesUrbanLegendsRevealed,,Mar 2002,Dec 2004,"29 eps","60 min","TLC",US
 "Mother and Son",MotherandSon,1936,Mar 1983,Jan 1993,"42 eps","30 min","ABC",AU
@@ -4082,8 +4089,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Mr. Smith",MrSmith,16730,Sep 1983,Dec 1983,"13 eps","30 min","NBC",US
 "Mr. Sunshine",MrSunshine,25048,Feb 2011,Apr 2011,"13 eps, 4 unaired","30 min","ABC",US
 "Mr. T and Tina",MrTandTina,4544,Sep 1976,Oct 1976,"5 eps","30 min","ABC",US
-"Mr. Young",MrYoung,29758,Mar 2011,___ ____,"26+ eps","30 min","YTV",CA
 "Mr. Young",MrYoung,29758,Mar 2011,___ ____,"26+ eps","30 min","Disney XD",US
+"Mr. Young",MrYoung,29758,Mar 2011,___ ____,"26+ eps","30 min","YTV",CA
 "Mr & Mrs Murder",MrandMrsMurder,34505,Feb 2013,___ ____,"13+ eps","50 min","Network Ten",AU
 "Mr. & Mrs. Smith",MrandMrsSmith,4535,Sep 1996,Nov 1996,"13 eps","60 min","CBS",US
 "Mr. Bean (1990)",MrBean,4536,Jan 1990,Oct 1995,"19 eps & feature film",,"ITV",UK
@@ -4100,8 +4107,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Mrs. Brown's Boys",MrsBrownsBoys,27551,Feb 2011,___ ____,"xx eps","30 min","BBC1",UK
 "Mrs. Brown's Boys",MrsBrownsBoys,27551,Feb 2011,___ ____,"xx eps","30 min","RT&#201;",IE
 "Mrs. Eastwood & Company",MrsEastwoodandCompany,31144,May 2012,July 2012,"10 eps","30 min","E!",US
-"The Mrs Merton Show",MrsMertonShow,9652,Dec 1994,Apr 1997,"25 eps","30 min","BBC2",UK
 "The Mrs Merton Show",MrsMertonShow,9652,Dec 1994,Apr 1997,"25 eps","30 min","BBC1",UK
+"The Mrs Merton Show",MrsMertonShow,9652,Dec 1994,Apr 1997,"25 eps","30 min","BBC2",UK
 "The Mrs Merton Show",MrsMertonShow,9652,Dec 1994,Apr 1997,"25 eps","30 min","ITV",UK
 "The Mrs. Bradley Mysteries",MrsBradleyMysteries,1935,Aug 1998,Nov 1999,"4 eps & pilot","60 min","BBC1",UK
 "Mrs. Columbo",MrsColumbo,4546,Feb 1979,Dec 1979,"13 eps","60 min","NBC",US
@@ -4267,8 +4274,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The New Adventures of Bat Man",NewAdventuresofBatMan,6015,Feb 1977,May 1977,"16 eps","30 min","CBS",US
 "The New Adventures of Beans Baxter",NewAdventuresofBeansBaxter,4644,Jul 1987,Nov 1987,"17 eps",,"Fox",US
 "The New Adventures of Black Beauty",NewAdventuresofBlackBeauty,,Sep 1990,1991?,"26 eps","30 min","ITV",UK
-"The New Adventures of Charlie Chan",NewAdventuresofCharlieChan,13234,Aug 1957,1958,"39 eps","30 min","syndicated",US
 "The New Adventures of Charlie Chan",NewAdventuresofCharlieChan,13234,Aug 1957,1958,"39 eps","30 min","syndicated",UK
+"The New Adventures of Charlie Chan",NewAdventuresofCharlieChan,13234,Aug 1957,1958,"39 eps","30 min","syndicated",US
 "The New Adventures of Kimba the White Lion",NewAdventuresofKimbatheWhiteLion,8012,Oct 1989,Oct 1990,"52 eps","30 min","TV Tokyo",JP
 "The New Adventures of Old Christine",NewAdventuresofOldChristine,7908,Mar 2006,May 2010,"88 eps","30 min","CBS",US
 "The New Adventures of Robin Hood",NewAdventuresofRobinHood,14738,Jan 1997,1999,"52 eps","60 min","TNT",US
@@ -4281,8 +4288,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "New Girl",NewGirl,28304,Sep 2011,___ ____,"xx eps","30 min","Fox",US
 "A New Kind of Family",NewKindofFamily,191,Sep 1979,Jan 1980,"10 eps","30 min","ABC",US
 "The New Land",NewLand,1792,Sep 1974,Oct 1974,"6 eps","60 min","ABC",US
-"The New Leave It to Beaver",NewLeaveIttoBeaver,6034,Mar 1983,1989?,"101 eps","30 min","Disney Channel",US
 "The New Leave It to Beaver",NewLeaveIttoBeaver,6034,Mar 1983,1989?,"101 eps","30 min","TBS",US
+"The New Leave It to Beaver",NewLeaveIttoBeaver,6034,Mar 1983,1989?,"101 eps","30 min","Disney Channel",US
 "The New Normal",NewNormal,31384,Sep 2012,Apr 2013,"22 eps","30 min","NBC",US
 "The New Odd Couple",NewOddCouple,6038,Oct 1982,Feb 1983,"15 eps","30 min","ABC",US
 "The New People",NewPeople,6040,Sep 1969,Jan 1970,"17 eps","45 min","ABC",US
@@ -4306,7 +4313,6 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Newsroom (1996)",Newsroom,6043,Oct 1996,Mar 2005,"33 eps","30 min","CBC",CA
 "The Newsroom (2012)",Newsroom_2012,31286,June 2012,___ ____,"10+ eps","60 min","HBO",US
 "Newswipe",Newswipe,25063,Mar 2009,___ ____,"xx eps","30 min","BBC4",UK
-"The Next:",Next,31954,Aug 2012,___ ____,"10 eps","60 min","CW",US
 "Next Action Star",NextActionStar,4656,June 2004,Aug 2005,"12 eps","60 min","NBC",US
 "The Next Best Thing: Who Is the Greatest Celebrity Impersonator?",NextBestThing,15555,May 2007,July 2007,"8 eps","60 min","ABC",US
 "The Next Food Network Star",NextFoodNetworkStar,7005,June 2005,___ ____,"xx eps","60 min","Food Network",US
@@ -4314,6 +4320,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Next Great Baker",NextGreatBaker,25935,Dec 2010,___ ____,"xx eps","60 min","TLC",US
 "Next of Kin",NextofKin,4657,May 1995,Feb 1997,"22 eps","30 min","BBC1",UK
 "Next Stop for Charlie",NextStopforCharlie,33416,Nov 2010,___ ____,"xx eps","30 min","Showtime",US
+"The Next: Fame Is At Your Doorstep",Next,31954,Aug 2012,Oct 2012,"10 eps","60 min","CW",US
 "NextWorld",NextWorld,19757,Aug 2008,Mar 2009,"13 eps","60 min","Discovery Channel",US
 "NFL Full Contact",NFLFullContact,22863,Feb 2010,Mar 2010,"6 eps","60 min","TruTV",US
 "Ni Hao Kai-lan",NiHaoKailan,9371,Feb 2008,Aug 2009,"29 eps","30 min","Nick",US
@@ -4341,10 +4348,11 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Nikita",Nikita,25189,Sep 2010,___ ____,"67+ eps","60 min","CW",US
 "Nikki",Nikki,4674,Oct 2000,Jan 2002,"39 eps, 4 unaired","30 min","WB",US
 "The Nine",Nine,8092,Oct 2006,Aug 2007,"13 eps, 4 unaired","60 min","ABC",US
+"Nine for IX",NineforIX,35601,July 2013,___ ____,"xx eps","60 min","ESPN",US
 "The Nine Lives of Chloe King",NineLivesofChloeKing,27745,June 2011,Aug 2011,"10 eps","60 min","ABC Family",US
 "90210",90210,18813,Sep 2008,May 2013,"114 eps","60 min","CW",US
-"9 to 5",9to5,2466,Mar 1982,Mar 1988,"82 eps","30 min","ABC",US
 "9 to 5",9to5,2466,Mar 1982,Mar 1988,"82 eps","30 min","syndicated",US
+"9 to 5",9to5,2466,Mar 1982,Mar 1988,"82 eps","30 min","ABC",US
 "1990",1990,12726,Sep 1977,Apr 1978,"16 eps","60 min","BBC2",UK
 "90 Days in Hollywood",90DaysinHollywood,2465,Jan 2004,Apr 2004,"13 eps","30 min","Biography Channel",US
 "Nip/Tuck",NipTuck,4677,Jul 2003,Mar 2010,"100 eps","60 min","FX",US
@@ -4398,15 +4406,15 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "NYPD Blue",NYPDBlue,4698,Sep 1993,Mar 2005,"261 eps, 2 specials","60 min","ABC",US
 "Oban Star-Racers",ObanStarRacers,13032,Jun 2006,Dec 2006,"26 eps","30 min","NHK",JP
 "Oban Star-Racers",ObanStarRacers,13032,Jun 2006,Dec 2006,"26 eps","30 min","France 3",FR
-"Oban Star-Racers",ObanStarRacers,13032,Jun 2006,Dec 2006,"26 eps","30 min","Toon Disney",US
 "Oban Star-Racers",ObanStarRacers,13032,Jun 2006,Dec 2006,"26 eps","30 min","ABC Family",US
+"Oban Star-Racers",ObanStarRacers,13032,Jun 2006,Dec 2006,"26 eps","30 min","Toon Disney",US
 "Object Z",ObjectZ,,Oct 1965,Nov 1965,"6 eps","30 min","ITV",UK
 "Object Z Returns",ObjectZReturns,,Feb 1966,Mar 1966,"6 eps","30 min","ITV",UK
 "The Oblongs",Oblongs,6056,Apr 2001,May 2001,"13 eps, 5 unaired","30 min","WB",US
 "Obsessed",Obsessed,22678,May 2009,Sep 2010,"20 eps","60 min","A&E",US
 "The O.C.",OC,6054,Aug 2003,Feb 2007,"92 eps","60 min","Fox",US
 "Occasional Wife",OccasionalWife,1872,Sep 1966,May 1967,"30 eps","30 min","NBC",US
-"The OCD Project",OCDProject,25614,May 2010,___ ____,"xx eps","60 min","VH-1",US
+"The OCD Project",OCDProject,25614,May 2010,July 2010,"8 eps","60 min","VH-1",US
 "Ocean Girl",OceanGirl,4701,Aug 1994,Dec 1997,"78 eps","30 min","Disney Channel",US
 "Ocean Girl",OceanGirl,4701,Aug 1994,Dec 1997,"78 eps","30 min","Network Ten",AU
 "October Road",OctoberRoad,8344,Mar 2007,Mar 2008,"19 eps","60 min","ABC",US
@@ -4445,9 +4453,9 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Oliver Beene",OliverBeene,4711,Mar 2003,Sep 2004,"24 eps","30 min","Fox",US
 "Oliver Stone's Untold History of United States",OliverStonesSecretHistoryofAmerica,33156,Nov 2012,___ ____,"xx eps","60 min","Showtime",US
 "Omega Factor",OmegaFactor,6063,Jun 1979,Aug 1979,"10 eps","50 min","BBC1",UK
+"Omnibus (1952)",Omnibus,14908,Nov 1952,Apr 1961,"122 eps","60 min","ABC",US
 "Omnibus (1952)",Omnibus,14908,Nov 1952,Apr 1961,"122 eps","60 min","NBC",US
 "Omnibus (1952)",Omnibus,14908,Nov 1952,Apr 1961,"122 eps","60 min","CBS",US
-"Omnibus (1952)",Omnibus,14908,Nov 1952,Apr 1961,"122 eps","60 min","ABC",US
 "Omnibus (1967)",Omnibus_1967,2077,Oct 1967,Jan 2003,"804 eps","60 min","BBC1",UK
 "On Death Row",OnDeathRow,30684,Mar 2012,Mar 2012,"4 eps","60 min","ID",US
 "On Our Own (1977)",OnOurOwn_1977,16637,Oct 1977,Apr 1978,"22 eps","30 min","CBS",US
@@ -4525,8 +4533,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Out of Practice",OutofPractice,4749,Sep 2005,Mar 2006,"20 eps, 6 unaired","30 min","CBS",US
 "Out of the Blue (1979)",OutoftheBlue_1979,174,Sep 1979,Dec 1979,"15 eps","30 min","ABC",US
 "Out of the Blue (1995)",OutoftheBlue_1995,,May 1995,Sep 1996,"12 eps","50 min","BBC1",UK
-"Out of the Blue (2008)",OutoftheBlue_2008,17951,Apr 2008,Jan 2009,"130 eps","25 min","BBC2",UK
 "Out of the Blue (2008)",OutoftheBlue_2008,17951,Apr 2008,Jan 2009,"130 eps","25 min",,AU
+"Out of the Blue (2008)",OutoftheBlue_2008,17951,Apr 2008,Jan 2009,"130 eps","25 min","BBC2",UK
 "Out of the Frying Pan",OutoftheFryingPan,25413,Apr 2010,May 2010,"5 eps","60 min","BBC2",UK
 "Out of the Unknown",OutoftheUnknown,4750,Oct 1965,June 1971,"49 eps","50 min","BBC1",UK
 "Out of the Wild",OutoftheWild,19141,Apr 2008,Jun 2009,"16 eps","60 min","Discovery Channel",US
@@ -4538,6 +4546,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Outer Limits (1995)",OuterLimits_1995,6069,Mar 1995,Jan 2002,"154 eps","60 min","Showtime",US
 "The Outer Limits (1995)",OuterLimits_1995,6069,Mar 1995,Jan 2002,"154 eps","60 min","Syfy",US
 "Outer Space Astronauts",OuterSpaceAstronauts,19648,Dec 2009,Dec 2009,"5 eps","30 min","Syfy",US
+"Outland",Outland,30937,Feb 2012,Mar 2012,"6 eps","30 min","ABC",AU
 "Outlaw",Outlaw,25719,Sep 2010,Nov 2010,"8 eps","60 min","NBC",US
 "Outlaw Star",OutlawStar,4747,Jan 1998,Feb 2001,"26+ eps","30 min",,JP
 "Outlaw Star",OutlawStar,4747,Jan 1998,Feb 2001,"26+ eps","30 min","Cartoon Network",US
@@ -4554,6 +4563,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Over There",OverThere,,Jul 2005,Oct 2005,"13 eps","60 min","FX",US
 "Overhaulin'",Overhaulin,4755,Apr 2004,June 2008,"79 eps","60 min","TLC",US
 "Owen Marshall, Counselor at Law",OwenMarshall,,Sep 1971,Apr 1974,"69 eps & pilot","60 min","ABC",US
+"Owner's Manual",OwnersManual,33650,Aug 2013,___ ____,"xx eps","30 min","AMC",US
 "Oz",Oz,4760,July 1997,Feb 2003,"56 eps","60 min","HBO",US
 "Ozzy & Drix",OzzyandDrix,4761,Sep 2002,July 2004,"26 eps","30 min","WB",US
 "P. Diddy's StarMaker",PDiddysStarMaker,23619,Aug 2009,Oct 2009,"10 eps","60 min","MTV",US
@@ -4580,12 +4590,12 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Paradise (2012)",Paradise_2012,32796,Sep 2012,___ ____,"xx eps","60 min","BBC1",UK
 "Paradise City",ParadiseCity,15238,Mar 2007,Apr 2007,"8 eps","30 min","E!",US
 "Paradise Falls",ParadiseFalls,4770,Jun 2001,Sep 2008,"104 eps","30 min","Showcase",CA
-"Paradise Hotel",ParadiseHotel,1048,June 2003,May 2008,"46 eps","60 min","Fox",US
 "Paradise Hotel",ParadiseHotel,1048,June 2003,May 2008,"46 eps","60 min","My Network TV",US
+"Paradise Hotel",ParadiseHotel,1048,June 2003,May 2008,"46 eps","60 min","Fox",US
 "Paradise Postponed",ParadisePostponed,4771,Sep 1986,Nov 1986,"11 eps","60 min","ITV",UK
 "Paradox",Paradox,23292,Nov 2009,Dec 2009,"5 eps","60 min","BBC1",UK
 "The Paranormal Borderline",ParanormalBorderline,,Mar 1996,May 1996,"9 eps","60 min","UPN",US
-"Paranormal Challenge",ParanormalChallenge,28582,June 2011,___ ____,"xx eps","60 min","The Travel Channel",US
+"Paranormal Challenge",ParanormalChallenge,28582,June 2011,Sep 2011,"12 eps","60 min","The Travel Channel",US
 "Paranormal Cops",ParanormalCops,21172,Jan 2010,Feb 2010,"6 eps","30 min","A&E",US
 "Paranormal State",ParanormalState,18003,Dec 2007,___ ____,"86 eps","30 min","A&E",US
 "Paranormal Witness",ParanormalWitness,28927,Sep 2011,___ ____,"xx eps","60 min","Syfy",US
@@ -4628,8 +4638,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Payne",Payne,4788,Mar 1999,Apr 1999,"9 eps, 1 unaired","30 min","CBS",US
 "Peaceable Kingdom",PeaceableKingdom,10173,Sep 1989,Nov 1989,"10 eps","60 min","CBS",US
 "Peacemakers",Peacemakers,4789,July 2003,Oct 2003,"10 eps","60 min","USA",US
-"Peak Practice",PeakPractice,423,May 1993,Jan 2002,"152 eps","60 min","ITV",UK
 "Peak Practice",PeakPractice,423,May 1993,Jan 2002,"152 eps","60 min","ITV1",UK
+"Peak Practice",PeakPractice,423,May 1993,Jan 2002,"152 eps","60 min","ITV",UK
 "Pearl",Pearl,4790,Sep 1996,Jun 1997,"22 eps","30 min","CBS",US
 "Pecola",Pecola,4792,Apr 2003,May 2003,"26 eps","30 min","Cartoon Network",US
 "Peep Show",PeepShow,849,Sep 2003,___ ____,"xx eps","30 min","Channel 4",UK
@@ -4656,7 +4666,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Perfect World",PerfectWorld,4803,Feb 2000,Jun 2001,"13 eps","30 min","BBC2",UK
 "Perry Mason (1957)",PerryMason,4804,Sep 1957,May 1966,"271 eps, 30 TVMs","60 min","CBS",US
 "Person of Interest",PersonofInterest,28376,Sep 2011,___ ____,"xx eps","60 min","CBS",US
-"Persona 4",Persona4,29511,Oct 2011,___ ____,"xx eps","30 min","MBS",JP
+"Persona 4",Persona4,29511,Oct 2011,Mar 2012,"25 eps","30 min","MBS",JP
 "Personal Affairs",PersonalAffairs,22960,June 2009,July 2009,"6 eps","70 min","BBC3",UK
 "Persons Unknown",PersonsUnknown,11103,June 2010,Aug 2010,"13 eps, 1 unaired","60 min","NBC",US
 "The Persuaders",Persuaders,6086,Sep 1971,Feb 1972,"24 eps","60 min","ITV",UK
@@ -4685,7 +4695,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Phoenix Team",PhoenixTeam,6089,Feb 1980,Oct 1980,"9 eps","60 min","CBC",CA
 "PhoneShop",PhoneShop,26730,Nov 2009,___ ____,"7+ eps","30 min","E4",UK
 "Phyllis",Phyllis,37,Sep 1975,Mar 1977,"48 eps","30 min","CBS",US
-"Picker Sisters",PickerSisters,29040,Aug 2011,___ ____,"xx eps","30 min","Lifetime",US
+"Picker Sisters",PickerSisters,29040,Aug 2011,Sep 2011,"8 eps","30 min","Lifetime",US
 "Picket Fences",PicketFences,4823,Sep 1992,Jun 1996,"89 eps","60 min","CBS",US
 "Pie in the Sky",PieintheSky,4824,Mar 1994,Aug 1997,"40 eps","60 min","BBC1",UK
 "Piers Morgan's Life Stories",PiersMorgansLifeStories,21818,Feb 2009,___ ____,"xx eps","75 min","ITV1",UK
@@ -4707,7 +4717,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Pirates of Dark Water",PiratesofDarkWater,6094,Feb 1991,May 1993,"21 eps","30 min","ABC",US
 "Pit Boss",PitBoss,24543,Jan 2010,___ ____,"xx eps","60 min","Animal Planet",US
 "The Pitch",Pitch,31349,Apr 2012,___ ____,"xx eps","60 min","AMC",US
-"Pitchmen",Pitchmen,22287,Apr 2009,___ ____,"xx eps","60 min","Discovery Channel",US
+"Pitchmen",Pitchmen,22287,Apr 2009,Mar 2011,"23 eps","60 min","Discovery Channel",US
 "The Pitts",Pitts,6095,Mar 2003,Apr 2003,"7 eps, 2 unaired","30 min","Fox",US
 "Pizza",Pizza,1584,Apr 2000,2007?,"59 eps","30 min","SBS ",AU
 "The PJs",PJs,6096,Jan 1999,May 2001,"41 eps","30 min","WB",US
@@ -4799,8 +4809,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Prime Suspect (US)",PrimeSuspect_US,24838,Sep 2011,Jan 2012,"13 eps","60 min","NBC",US
 "Primetime Glick",PrimetimeGlick,4890,Jun 2001,Jul 2003,"30 eps","30 min","Comedy Central",US
 "Primetime Live",PrimetimeLive,7761,Aug 1989,___ ____,"xx eps","60 min","ABC",US
-"Primetime Nightline: Beyond Belief",PrimetimeNightlineBeyondBelief,28866,Jul 2011,___ ____,"xx eps","60 min","ABC",US
-"Primeval",Primeval,15138,Feb 2007,,"36+ eps","60 min","ITV1",UK
+"Primetime Nightline: Beyond Belief",PrimetimeNightlineBeyondBelief,28866,Jul 2011,Aug? 2011,"5 eps","60 min","ABC",US
+"Primeval",Primeval,15138,Feb 2007,June 2011,"36 eps","60 min","ITV1",UK
 "Primeval: New World",PrimevalNewWorld,29754,Oct 2012,,"13 eps","60 min","Space",CA
 "A Prince Among Men",PrinceAmongMen,2635,Sep 1997,Oct 1997,"6 eps","30 min","BBC1",UK
 "Prince Street",PrinceStreet,4894,Mar 1997,Mar 1997,"6 eps, 4 unaired",,"NBC",US
@@ -4870,8 +4880,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "QI",QI,4920,Sep 2003,___ ____,"49+ eps","30 min","BBC2",UK
 "Quantum Leap",QuantumLeap,4921,Mar 1989,May 1993,"97 eps",,"NBC",US
 "Quark",Quark,4922,May 1977,Apr 1978,"8 eps","30 min","NBC",US
-"Quarterlife",Quarterlife,17897,Feb 2008,Mar 2008,"6 eps","60 min","NBC",US
 "Quarterlife",Quarterlife,17897,Feb 2008,Mar 2008,"6 eps","60 min","Bravo",US
+"Quarterlife",Quarterlife,17897,Feb 2008,Mar 2008,"6 eps","60 min","NBC",US
 "Quatermass",Quatermass,1841,Oct 1979,Nov 1979,"4 eps","60 min","ITV",UK
 "Quatermass and the Pit",QuatermassandthePit,,Dec 1958,Jan 1959,"67 eps","30 min","BBC",UK
 "The Quatermass Experiment",QuatermassExperiment,,July 1953,Aug 1953,"6 eps","30 min","BBC",UK
@@ -4887,9 +4897,9 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Quest (1982)",Quest_1982,6116,Oct 1982,Nov 1982,"10 eps","60 min","ABC",US
 "Quincy, M.E.",Quincy,4931,Oct 1976,May 1983,"148 eps","60 min","NBC",US
 "Quintuplets",Quintuplets,4932,Jun 2004,Jan 2005,"22 eps","30 min","Fox",US
-"Quirky",Quirky,29123,Sep 2011,___ ____,"xx eps","60 min","Sundance",US
-"Q'Viva! The Chosen",QVivaTheChosen,30926,Mar 2012,___ ____,"6+ eps","120 min","Fox",US
+"Quirky",Quirky,29123,Sep 2011,Sep 2011,"6 eps","60 min","Sundance",US
 "Q'Viva! The Chosen",QVivaTheChosen,30926,Mar 2012,___ ____,"6+ eps","120 min","Univision",US
+"Q'Viva! The Chosen",QVivaTheChosen,30926,Mar 2012,___ ____,"6+ eps","120 min","Fox",US
 "Rab C. Nesbitt",RabCNesbitt,22274,Sep 1990,___ ____,"52 eps","30 min","BBC2",UK
 "Rabbit Fall",RabbitFall,18103,Nov 2007,Dec 2008,"14 eps","30 min","CBC",CA
 "The Rachel Zoe Project",RachelZoeProject,19198,Sep 2008,___ ____,"xx eps","60 min","Bravo",US
@@ -4935,6 +4945,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Real Ghostbusters",RealGhostbusters,6121,Sep 1986,Jan 1991,"140 eps","30 min","ABC",US
 "The Real Housewives of Atlanta",RealHousewivesofAtlanta,19672,July 2008,___ ____,"xx eps","60 min","Bravo",US
 "The Real Housewives of Beverly Hills",RealHousewivesofBeverlyHills,25448,Oct 2010,___ ____,"xx eps","60 min","Bravo",US
+"The Real Housewives of Miami",RealHousewivesofMiami,27604,Feb 2011,___ ____,"xx eps","60 min","Bravo",US
 "The Real Housewives of New Jersey",RealHousewivesofNewJersey,22647,May 2009,___ ____,"xx eps","60 min","Bravo",US
 "The Real Housewives of New York City",RealHousewivesofNewYorkCity,18525,Mar 2008,___ ____,"xx eps","60 min","Bravo",US
 "The Real Housewives of Orange County",RealHousewivesofOrangeCounty,7218,Mar 2006,___ ____,"xx eps","60 min","Bravo",US
@@ -4969,8 +4980,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Red Dwarf",RedDwarf,4959,Feb 1988,___ ____,"55+ eps","30 min","Dave",UK
 "Red Dwarf",RedDwarf,4959,Feb 1988,___ ____,"55+ eps","30 min","BBC2",UK
 "The Red Green Show",RedGreenShow,6130,Jan 1991,Apr 2006,"311 eps","30 min","CBC",CA
-"The Red Green Show",RedGreenShow,6130,Jan 1991,Apr 2006,"311 eps","30 min","CTV",CA
 "The Red Green Show",RedGreenShow,6130,Jan 1991,Apr 2006,"311 eps","30 min","Global",CA
+"The Red Green Show",RedGreenShow,6130,Jan 1991,Apr 2006,"311 eps","30 min","CTV",CA
 "Red Shoe Diaries",RedShoeDiaries,4961,Jun 1992,Jun 1999,"66 eps & pilot","30 min","Showtime",US
 "Red Widow",RedWidow,31717,Mar 2013,May 2013,"8 eps","60 min","ABC",US
 "Redcap (1964)",Redcap_1964,1180,Oct 1964,June 1966,"26 eps","60 min","ITV",UK
@@ -5034,8 +5045,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Revenge",Revenge,28387,Sep 2011,___ ____,"44+ eps","60 min","ABC",US
 "The Revolting World of Stanley Brown",RevoltingWorldofStanleyBrown,33604,Sep 2012,___ ____,"xx eps","30 min","CBBC",UK
 "The Revolution (2007)",Revolution_2007,21858,July 2007,Sep 2007,"13 eps","60 min","History",US
-"Revolution (2012)",Revolution,30897,Sep 2012,___ ____,"20+ eps","60 min","NBC",US
 "The Revolution (2012)",Revolution_2012,30490,Jan 2012,July 2012,"105 eps","60 min","ABC",US
+"Revolution (2012)",Revolution,30897,Sep 2012,___ ____,"20+ eps","60 min","NBC",US
 "Rex the Runt",RextheRunt,4996,Dec 1998,Jan 1999,"13 eps",,"BBC2",UK
 "Rhoda",Rhoda,4997,Sep 1974,Dec 1978,"110 eps","30 min","CBS",US
 "Rhona",Rhona,4998,Jul 2000,Aug 2000,"6 eps","30 min","BBC2",UK
@@ -5161,7 +5172,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Rowan & Martin's Laugh-In",RowanandMartinsLaughIn,5064,Sep 1967,Mar 1973,"141 eps","60 min","NBC",US
 "The Roy Rogers Show",RoyRogersShow,6156,Dec 1951,Jun 1957,"100 eps","30 min","NBC",US
 "The Royal",Royal,6152,Jan 2003,July 2009,"78 eps","60 min","ITV1",UK
-"The Royal Bodyguard",RoyalBodyguard,30236,Dec 2011,___ ____,"xx eps","30 min","BBC1",UK
+"The Royal Bodyguard",RoyalBodyguard,30236,Dec 2011,Jan 2012,"6 eps","30 min","BBC1",UK
 "Royal Canadian Air Farce",RoyalCanadianAirFarce,5065,Oct 1993,Dec 2008,"361 eps","30 min","CBC",CA
 "The Royal Family",RoyalFamily,6153,Sep 1991,May 1992,"15 eps","30 min","CBS",US
 "Royal Pains",RoyalPains,22336,Jun 2009,___ ____,"62+ eps","60 min","USA",US
@@ -5218,8 +5229,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Samurai Girl",SamuraiGirl,18410,Sep 2008,Sep 2008,"6 eps","60 min","ABC Family",US
 "Samurai Jack",SamuraiJack,5094,Aug 2001,Sep 2004,"52 eps","30 min","Cartoon Network",US
 "The San Pedro Beach Bums",SanPedroBeachBums,6162,May 1977,Dec 1977,"10 eps & pilot","60 min","ABC",US
-"Sanctuary",Sanctuary,18682,May 2007,Dec 2011,"59 eps","60 min","Syfy",US
 "Sanctuary",Sanctuary,18682,May 2007,Dec 2011,"59 eps","60 min","web",US
+"Sanctuary",Sanctuary,18682,May 2007,Dec 2011,"59 eps","60 min","Syfy",US
 "The Sandbaggers",Sandbaggers,1749,Sep 1978,July 1980,"20 eps","60 min","ITV",UK
 "The Sandie Shaw Supplement",SandieShawSupplement,,Sep 1968,Nov 1968,"6 eps","25 min","BBC1",UK
 "The Sandy Duncan Show",SandyDuncanShow,6161,Sep 1972,Dec 1972,"13 eps","30 min","CBS",US
@@ -5394,11 +5405,11 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Shaq's Big Challenge",ShaqsBigChallenge,15591,June 2007,July 2007,"6 eps","60 min","ABC",US
 "Shark",Shark,8490,Sep 2006,May 2008,"38 eps","60 min","CBS",US
 "Shark Tank",SharkTank,22610,Aug 2009,___ ____,"13 eps","60 min","ABC",US
-"Sharpe",Sharpe,801,May 1993,Nov 2008,"19 eps","120 min","ITV",UK
 "Sharpe",Sharpe,801,May 1993,Nov 2008,"19 eps","120 min","ITV1",UK
+"Sharpe",Sharpe,801,May 1993,Nov 2008,"19 eps","120 min","ITV",UK
 "Shasta McNasty",Shasta,5167,Oct 1999,June 2000,"18+ eps","30 min","UPN",US
-"Shattered",Shattered,26214,Sep 2010,Feb 2011,"13 eps","60 min","Showcase",CA
 "Shattered",Shattered,26214,Sep 2010,Feb 2011,"13 eps","60 min","Global",CA
+"Shattered",Shattered,26214,Sep 2010,Feb 2011,"13 eps","60 min","Showcase",CA
 "Shaun the Sheep",ShauntheSheep,15251,Mar 2007,___ ____,"70+ eps","10 min","BBC1",UK
 "Shazam!",Shazam,5168,Sep 1974,Oct 1976,"28 eps","30 min","CBS",US
 "She Spies",SheSpies,5179,July 2002,May 2004,"40 eps","60 min","syndicated",US
@@ -5434,8 +5445,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Shoebox Zoo",ShoeboxZoo,2196,Sep 2004,Nov 2005,"26 eps","30 min","CBC",CA
 "Shoebox Zoo",ShoeboxZoo,2196,Sep 2004,Nov 2005,"26 eps","30 min","CBBC",UK
 "Shoestring",Shoestring,5186,Sep 1979,Dec 1980,"21 eps","50 min","BBC1",UK
-"Shooting Stars",ShootingStars,1913,Dec 1993,Sep 2011,"70 eps","30 min","BBC2",UK
 "Shooting Stars",ShootingStars,1913,Dec 1993,Sep 2011,"70 eps","30 min","BBC Choice",UK
+"Shooting Stars",ShootingStars,1913,Dec 1993,Sep 2011,"70 eps","30 min","BBC2",UK
 "Shootout",Shootout,5391,Oct 2003,Mar 2008,"162 eps","30 min","AMC",US
 "A Shot at Love with Tila Tequila",ShotatLovewithTilaTequila,17604,Oct 2007,Feb 2009,"32 eps","30 min","MTV",US
 "The Show",Show,6187,Mar 1996,Jun 1996,"8 eps","30 min","Fox",US
@@ -5462,8 +5473,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Silk",Silk,27552,Feb 2011,___ ____,"6 eps","60 min","BBC1",UK
 "Silk Stalkings",SilkStalkings,5200,Nov 1991,Apr 1999,"176 eps","60 min","USA",US
 "Silk Stalkings",SilkStalkings,5200,Nov 1991,Apr 1999,"176 eps","60 min","CBS",US
-"Silver Spoons",SilverSpoons,5201,Sep 1982,Mar 1987,"116 eps","30 min","syndicated",US
 "Silver Spoons",SilverSpoons,5201,Sep 1982,Mar 1987,"116 eps","30 min","NBC",US
+"Silver Spoons",SilverSpoons,5201,Sep 1982,Mar 1987,"116 eps","30 min","syndicated",US
 "Simon",Simon,5202,Sep 1995,Feb 1996,"16 eps","30 min","WB",US
 "Simon & Simon",SimonandSimon,5203,Nov 1981,Dec 1988,"156 eps & movie","60 min","CBS",US
 "Simon in the Land of Chalk Drawings",SimonintheLandofChalkDrawings,,Mar 1976,June 1976,"25 eps","15 min","ITV",UK
@@ -5637,8 +5648,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Southcliffe",Southcliffe,36841,Aug 2013,___ ____,"xx eps","60 min","Channel 4",UK
 "Southern Fried Stings",SouthernFriedStings,25464,Apr 2010,May 2011,"26 eps","30 min","TruTV",US
 "Southie Rules",SouthieRules,31648,Jan 2013,Feb 2013,"8 eps","30 min","A&E",US
-"Southland",Southland,21197,Apr 2009,Apr 2013,"43 eps","60 min","TNT",US
 "Southland",Southland,21197,Apr 2009,Apr 2013,"43 eps","60 min","NBC",US
+"Southland",Southland,21197,Apr 2009,Apr 2013,"43 eps","60 min","TNT",US
 "Soy tu fan (Mexico)",Soytufan,26801,Apr 2010,___ ____,"xx eps","60 min","Once TV",MX
 "The Spa",Spa,34222,Feb 2013,___ ____,"xx eps","30 min","Sky Living",UK
 "Space: Above and Beyond",SpaceAboveandBeyond,5272,Sep 1995,June 1996,"24 eps","60 min","Fox",US
@@ -5661,10 +5672,10 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Special Branch",SpecialBranch,5284,Sep 1969,May 1974,"53 eps","60 min","ITV",UK
 "Special Unit 2",SpecialUnit2,5286,Apr 2001,Feb 2002,"19 eps","60 min","UPN",US
 "Spectacle: Elvis Costello with ...",Spectacle,20626,Dec 2008,___ ____,"xx eps","60 min","Sundance",US
-"The Spectacular Spider-Man",SpectacularSpiderMan,15237,Mar 2008,Nov 2009,"26 eps","30 min","Disney XD",US
 "The Spectacular Spider-Man",SpectacularSpiderMan,15237,Mar 2008,Nov 2009,"26 eps","30 min","Kids WB",US
-"Speed Grapher",SpeedGrapher,12826,Apr 2005,Sep 2005,"24 eps","30 min","IFC",US
+"The Spectacular Spider-Man",SpectacularSpiderMan,15237,Mar 2008,Nov 2009,"26 eps","30 min","Disney XD",US
 "Speed Grapher",SpeedGrapher,12826,Apr 2005,Sep 2005,"24 eps","30 min",,JP
+"Speed Grapher",SpeedGrapher,12826,Apr 2005,Sep 2005,"24 eps","30 min","IFC",US
 "Speed Racer (1967)",SpeedRacer_1967,5288,Sep 1967,Mar 1968,"52 eps","30 min",,JP
 "Speed Racer (1967)",SpeedRacer_1967,5288,Sep 1967,Mar 1968,"52 eps","30 min","syndicated",US
 "Speed Racer (2002)",SpeedRacer_2002,,Aug 2002,Nov 2002,"12+ eps","30 min","Nick",US
@@ -5791,6 +5802,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Story of Tracy Beaker",StoryofTracyBeaker,6216,Jan 2002,Mar 2006,"125 eps","30 min","BBC1",UK
 "Stranded",Stranded,33652,Feb 2013,___ ____,"xx eps","60 min","Syfy",US
 "Strange",Strange,5359,Mar 2002,July 2003,"6 eps & pilot","60 min","BBC1",UK
+"The Strange Calls",StrangeCalls,33161,Oct 2012,___ ____,"xx eps","30 min","ABC",AU
 "Strange Days at Blake Holsey High",StrangeDaysatBlakeHolseyHigh,5360,Oct 2002,Jan 2006,"42 eps","30 min","NBC",US
 "Strange Frequency",StrangeFrequency,5361,Aug 2001,Nov 2001,"12 eps","30 min","VH-1",US
 "Strange Luck",StrangeLuck,5363,Sep 1995,Feb 1996,"17 eps","60 min","Fox",US
@@ -5809,8 +5821,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Stressed Eric",StressedEric,5375,Apr 1998,Oct 2000,"13 eps","30 min","BBC2",UK
 "Strictly Come Dancing",StrictlyComeDancing,6747,May 2004,___ ____,"xx eps","60 min","BBC1",UK
 "Strictly Confidential",StrictlyConfidential,12753,Nov 2006,Dec 2006,"6 eps","60 min","ITV1",UK
-"Strike Back",StrikeBack,25652,May 2010,___ ____,"26+ eps","60 min","Sky One",UK
 "Strike Back",StrikeBack,25652,May 2010,___ ____,"26+ eps","60 min","Cinemax",US
+"Strike Back",StrikeBack,25652,May 2010,___ ____,"26+ eps","60 min","Sky One",UK
 "Strike Force",StrikeForce,229,Nov 1981,Apr 1982,"20 eps","60 min","ABC",US
 "The Strip",Strip,19847,Oct 1999,Jan 2000,"10 eps, 1 unaired","60 min","UPN",US
 "Strip Mall",StripMall,5377,Jun 2000,Mar 2001,"20 eps","30 min","Comedy Central",US
@@ -5880,8 +5892,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Surviving Disaster (2006)",SurvivingDisaster,7494,Jan 2006,Feb 2006,"7 eps","60 min","BBC1",UK
 "Surviving Disaster (2009)",SurvivingDisaster_2009,23436,Sep 2009,Nov 2009,"10 eps","60 min","Spike",US
 "Surviving Suburbia",SurvivingSuburbia,19286,Apr 2009,Aug 2009,"13 eps","30 min","ABC",US
-"Survivor (UK)",Survivor_UK,5419,July 2001,May 2002,"27 eps","60 min","ITV1",UK
 "Survivor (UK)",Survivor_UK,5419,July 2001,May 2002,"27 eps","60 min","ITV",UK
+"Survivor (UK)",Survivor_UK,5419,July 2001,May 2002,"27 eps","60 min","ITV1",UK
 "Survivor (US)",Survivor,5418,May 2000,___ ____,"xx eps","60 min","CBS",US
 "Survivorman",Survivorman,6858,Jun 2005,Dec 2008,"23 eps","60 min","Discovery Channel",US
 "Survivors (1975)",Survivors,6229,Apr 1975,June 1977,"38 eps","60 min","BBC1",UK
@@ -5925,8 +5937,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Tabloid Wars",TabloidWars,12793,July 2006,Aug 2006,"6 eps","60 min","Bravo",US
 "Taboo",Taboo,17035,Sep 2002,___ ____,"xx eps","60 min","National Geographic",US
 "Tactical to Practical",TacticaltoPractical,5443,Sep 2003,June 2004,"22? eps","60 min","History",US
-"Taggart",Taggart,5444,Sep 1983,___ ____,"82+ eps","90 min","ITV",UK
 "Taggart",Taggart,5444,Sep 1983,___ ____,"82+ eps","90 min","ITV1",UK
+"Taggart",Taggart,5444,Sep 1983,___ ____,"82+ eps","90 min","ITV",UK
 "Taina",Taina,5446,Jan 2001,May 2002,"26 eps","30 min","Nick",US
 "Tak and the Power of Juju",TakandthePowerofJuju,9369,Aug 2007,Aug 2008,"27 eps","30 min","Nick",US
 "Take a Letter Mr. Jones",TakeaLetterMrJones,8384,Sep 1981,Oct 1981,"6 eps","30 min","ITV",UK
@@ -5955,6 +5967,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Tales of Wells Fargo",TalesofWellsFargo,5456,Mar 1957,Jun 1962,"166 30-min eps (b & w), 34 60-min eps (color)","30 min / 60 min","NBC",US
 "Talk to Me",TalktoMe,5459,Apr 2000,Apr 2000,"5 eps","30 min","ABC",US
 "Talkin' 'bout Your Generation",TalkinboutYourGeneration,23032,May 2009,___ ____,"xx eps","60 min","Network Ten",AU
+"Talking Bad",TalkingBad,36082,Aug 2013,___ ____,"8 eps","30 min","AMC",US
 "Talking Dead",TalkingDead,29695,Oct 2011,___ ____,"xx eps","30 min","AMC",US
 "Tama and Friends",TamaandFriends,5460,Sep 2001,Dec 2001,"13+ eps","30 min","syndicated",US
 "Tandarra",Tandarra,534,Feb 1976,May 1976,"13 eps","60 min","Seven Network",AU
@@ -6057,8 +6070,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "There Goes the Neighborhood",ThereGoestheNeighborhood,22815,Aug 2009,Sep 2009,"7 eps","60 min","CBS",US
 "They Came from Outer Space",TheyCamefromOuterSpace,6315,Oct 1990,Mar 1991,"20 eps","60 min","syndicated",US
 "They Think It's All Over",TheyThinkItsAllOver,6790,Sep 1995,June 2006,"157 eps","30 min","BBC1",UK
-"The Thick of It",ThickofIt,7108,May 2005,___ ____,"16+ eps","30 min","BBC4",UK
 "The Thick of It",ThickofIt,7108,May 2005,___ ____,"16+ eps","30 min","BBC2",UK
+"The Thick of It",ThickofIt,7108,May 2005,___ ____,"16+ eps","30 min","BBC4",UK
 "Thief",Thief,6966,Mar 2006,May 2006,"6 eps","60 min","FX",US
 "Thief Takers",ThiefTakers,79,Feb 1995,Dec 1997,"25 eps","60 min","ITV",UK
 "Thieves",Thieves,6328,Sep 2001,Nov 2001,"10 eps, 2 unaired","60 min","ABC",US
@@ -6103,9 +6116,9 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "3 Non-Blondes",3NonBlondes,2453,Jan 2003,Dec 2003,"16 eps","30 min","BBC3",UK
 "The 3:00 Movie",300Movie,,July 1980,July 1984,"973 airings","90 min","WLS Chicago",US
 "3 Lbs",3Lbs,7264,Nov 2006,Nov 2006,"8 eps, 5 unaired","60 min","CBS",US
-"Three Rivers",ThreeRivers,22754,Oct 2009,Dec 2009,"13 eps, 5 unaired","60 min","CBS",US
-"Three Sheets",ThreeSheets,14813,June 2006,Dec 2009,"52 eps","30 min","Fine Living Network",US
+"Three Rivers",ThreeRivers,22754,Oct 2009,Dec 2009,"13 eps","60 min","CBS",US
 "Three Sheets",ThreeSheets,14813,June 2006,Dec 2009,"52 eps","30 min","Mojo",US
+"Three Sheets",ThreeSheets,14813,June 2006,Dec 2009,"52 eps","30 min","Fine Living Network",US
 "Three Sisters",ThreeSisters,6346,Jan 2001,Feb 2002,"35 eps, 4 unaired","30 min","NBC",US
 "3-South",3South,2451,Nov 2002,Jan 2003,"13 eps, 3 unaired","30 min","MTV",US
 "Three Stooges",ThreeStooges,6236,Jan 1958,see NOTES,"190 shorts","18 min","syndicated",US
@@ -6170,7 +6183,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Toad Patrol",ToadPatrol,6369,Sep 2002,Jul 2003,"26 eps","30 min","Teletoon",CA
 "Today's FBI",TodaysFBI,15334,Oct 1981,Apr 1982,"19 eps","60 min","ABC",US
 "Today's Special",TodaysSpecial,1639,1981,1987,"120 eps, 1 Special","30 min","TVOntario",CA
-"Todd & the Book of Pure Evil",ToddandtheBookofPureEvil,26726,Sep 2010,___ ____,"13+ eps","30 min","Space",CA
+"Todd & the Book of Pure Evil",ToddandtheBookofPureEvil,26726,Sep 2010,Jan 2012,"26 eps","30 min","Space",CA
 "Toddworld",Toddworld,6372,Nov 2004,Nov 2004,"16 eps","15 min","TLC",US
 "2gether",2gether,2448,Aug 2000,Mar 2001,"19 eps, TVM","30 min","MTV",US
 "Together We Stand",TogetherWeStand,268,Sep 1986,Apr 1987,"19 eps","30 min","CBS",US
@@ -6187,10 +6200,10 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "The Tonight Show with Conan O'Brien",TonightShow,21063,June 2009,Jan 2010,"145 eps","60 min","NBC",US
 "The Tonight Show with Jay Leno",TonightShowwithJayLeno_1992,6247,May 1992,___ ____,"3775+ eps","60 min","NBC",US
 "The Tony Danza Show",TonyDanza,12048,Sep 1997,Jul 1998,"14 eps, 7 unaired","30 min","NBC",US
-"The Tony Randall Show",TonyRandallShow,8257,Sep 1976,Mar 1978,"44 eps","30 min","ABC",US
 "The Tony Randall Show",TonyRandallShow,8257,Sep 1976,Mar 1978,"44 eps","30 min","CBS",US
-"Too Close for Comfort",TooCloseforComfort,9,Nov 1980,Feb 1987,"129 eps","30 min","syndicated",US
+"The Tony Randall Show",TonyRandallShow,8257,Sep 1976,Mar 1978,"44 eps","30 min","ABC",US
 "Too Close for Comfort",TooCloseforComfort,9,Nov 1980,Feb 1987,"129 eps","30 min","ABC",US
+"Too Close for Comfort",TooCloseforComfort,9,Nov 1980,Feb 1987,"129 eps","30 min","syndicated",US
 "Too Fat for 15: Fighting Back",TooFatfor15,26216,Aug 2010,Dec 2011,"23 eps","60 min","Style",US
 "Too Late with Adam Carolla",TooLatewithAdamCarolla,6720,Aug 2005,Nov 2005,"50 eps","30 min","Comedy Central",US
 "Too Something",NewYorkDaze,4653,Oct 1995,Jun 1996,"22 eps","30 min","Fox",US
@@ -6202,8 +6215,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Top Design",TopDesign,11210,Jan 2007,Nov 2008,"20 eps","60 min","Bravo",US
 "Top Gear (US)",TopGear_US,20568,Nov 2010,___ ____,"xx eps","60 min","History",US
 "Top Gear (UK : 2002)",TopGear,6753,Oct 2002,___ ____,"80+ eps","60 min","BBC2",UK
-"Top Gear Australia",TopGearAustralia,20324,Sep 2008,___ ____,"xx eps","60 min","Nine Network",AU
 "Top Gear Australia",TopGearAustralia,20324,Sep 2008,___ ____,"xx eps","60 min","SBS ",AU
+"Top Gear Australia",TopGearAustralia,20324,Sep 2008,___ ____,"xx eps","60 min","Nine Network",AU
 "Top of the Heap",TopoftheHeap,6385,Apr 1991,May 1991,"7 eps","30 min","Fox",US
 "Top of the Hill",TopoftheHill,16758,Sep 1989,Dec 1989,"13 eps","60 min","CBS",US
 "Top of the Lake",TopoftheLake,27903,Mar 2013,___ ____,"7 eps","60 min","Sundance",US
@@ -6211,9 +6224,9 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Top Secret Recipe",TopSecretRecipe,29633,Oct 2011,___ ____,"xx eps","60 min","CMT",US
 "Top Shot",TopShot,24826,June 2010,___ ____,"xx eps","60 min","History",US
 "Topper",Topper,1727,Oct 1953,July 1955,"78 eps","30 min","CBS",US
+"Torchwood",Torchwood,6993,Oct 2006,Sep 2011,"41 eps","50 min [ 1-2, 4 ] / 60 min [ 3 ]","BBC3",UK
 "Torchwood",Torchwood,6993,Oct 2006,Sep 2011,"41 eps","50 min [ 1-2, 4 ] / 60 min [ 3 ]","BBC2",UK
 "Torchwood",Torchwood,6993,Oct 2006,Sep 2011,"41 eps","50 min [ 1-2, 4 ] / 60 min [ 3 ]","BBC1",UK
-"Torchwood",Torchwood,6993,Oct 2006,Sep 2011,"41 eps","50 min [ 1-2, 4 ] / 60 min [ 3 ]","BBC3",UK
 "Torchwood Declassified",TorchwoodDeclassified,14830,Oct 2006,Apr 2008,"27 eps","10 min","BBC3",UK
 "Torchwood: Miracle Day",TorchwoodMiracleDay,6993a,Jul 2011,Sep 2011,"10 eps","60 min","Starz",US
 "The Torkelsons",Torkelsons,6250,Sep 1991,June 1992,"20 eps","30 min","NBC",US
@@ -6264,8 +6277,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Transformers: Robots in Disguise",TransformersRobotsinDisguise,6411,Sep 2001,Mar 2002,"39 eps","30 min","Fox",US
 "Transformers: Animated",TransformersAnimated,16374,Dec 2007,May 2009,"42 eps","30 min","Cartoon Network",US
 "TransGeneration",TransGeneration,19487,Sep 2005,Aug 2006,"9 eps","60 min","Sundance",US
-"Transporter",Transporter,27190,Oct 2012,___ ____,"12 eps","50 min","RTL",DE
 "Transporter",Transporter,27190,Oct 2012,___ ____,"12 eps","50 min","HBO Canada",CA
+"Transporter",Transporter,27190,Oct 2012,___ ____,"12 eps","50 min","RTL",DE
 "The Trap Door",TrapDoor,2122,1984,1986,"40 eps","5 min","ITV",UK
 "Trapper John, M.D.",TrapperJohnMD,21,Sep 1979,Sep 1986,"151 eps","60 min","CBS",US
 "Traps",Traps,6416,Mar 1994,Apr 1994,"5 eps","60 min","CBS",US
@@ -6280,8 +6293,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Treme",Treme,22606,Apr 2010,___ ____,"31+ eps","60 min","HBO",US
 "Tremors",Tremors,6420,Mar 2003,Aug 2003,"13 eps & movies","60 min","Syfy",US
 "Trevor's World of Sport",TrevorsWorldofSport,1182,Aug 2003,Sep 2003,"7 eps","30 min","BBC1",UK
-"Trial & Retribution",TrialandRetribution,6421,Oct 1997,Feb 2009,"44 eps","60 min","ITV1",UK
 "Trial & Retribution",TrialandRetribution,6421,Oct 1997,Feb 2009,"44 eps","60 min","ITV",UK
+"Trial & Retribution",TrialandRetribution,6421,Oct 1997,Feb 2009,"44 eps","60 min","ITV1",UK
 "Trials of O'Brien",TrialsofOBrien,6422,Sep 1965,Mar 1966,"22 eps","60 min","CBS",US
 "The Trials of Rosie O'Neill",TrialsofRosieONeill,16760,Sep 1990,Nov 1991,"26 eps","60 min","CBS",US
 "Triangle (1981)",Triangle,367,Jan 1981,July 1983,"78 eps","30 min","BBC1",UK
@@ -6444,8 +6457,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Unsub",Unsub,6488,Feb 1989,Apr 1989,"8 eps","60 min","NBC",US
 "An Unsuitable Job for a Woman",UnsuitableJobforaWoman,2631,Oct 1997,May 2001,"4 specials","180 / 120 min","ITV",UK
 "Unsupervised",Unsupervised,30294,Jan 2012,Dec 2012,"13 eps","30 min","FX",US
-"Untold Stories of the ER",UntoldStoriesoftheER,6960,Apr 2004,___ ____,"xx eps","60 min","Discovery Health",US
 "Untold Stories of the ER",UntoldStoriesoftheER,6960,Apr 2004,___ ____,"xx eps","60 min","TLC",US
+"Untold Stories of the ER",UntoldStoriesoftheER,6960,Apr 2004,___ ____,"xx eps","60 min","Discovery Health",US
 "The Untouchables (1959)",Untouchables,6264,Oct 1959,May 1963,"118 eps & pilot","60 min","ABC",US
 "The Untouchables (1993)",Untouchables_1993,6265,Jan 1993,May 1994,"42 eps","60 min","syndicated",US
 "The Unusuals",Unusuals,19184,Apr 2009,Jun 2009,"10 eps","60 min","ABC",US
@@ -6460,9 +6473,9 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Upstairs, Downstairs (2010)",UpstairsDownstairs_2010,27014,Dec 2010,___ ____,"xx eps","60 min","BBC1",UK
 "Urban Angel",UrbanAngel,6492,Oct 1991,Feb 1992,"11 eps","60 min","CBS",US
 "Urban Gothic",UrbanGothic,1708,May 2000,Dec 2001,"22 eps","30 min","Five",UK
-"Urban Legends",UrbanLegends,17526,Jun 2007,Nov 2011,"45 eps","30 min","History Television",CA
-"Urban Legends",UrbanLegends,17526,Jun 2007,Nov 2011,"45 eps","30 min","Biography Channel",US
 "Urban Legends",UrbanLegends,17526,Jun 2007,Nov 2011,"45 eps","30 min","Syfy",US
+"Urban Legends",UrbanLegends,17526,Jun 2007,Nov 2011,"45 eps","30 min","Biography Channel",US
+"Urban Legends",UrbanLegends,17526,Jun 2007,Nov 2011,"45 eps","30 min","History Television",CA
 "Utopia",Utopia,32276,Jan 2013,___ ____,"6 eps","60 min","Channel 4",UK
 "V (1983)",V,6493,May 1983,May 1985,"24 eps","120 min/60 min","NBC",US
 "V (2009)",V_2009,22814,Nov 2009,Mar 2011,"22 eps","60 min","ABC",US
@@ -6590,8 +6603,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "W.E.B.",Web,6527,Sep 1978,Oct 1978,"5 eps","60 min","NBC",US
 "Web Therapy",WebTherapy,28687,July 2011,___ ____,"22+ eps","30 min","Showtime",US
 "Webdreams",Webdreams,7449,Sep 2005,June 2007,"22 eps","30 min","Showcase",CA
-"Webster",Webster,6552,Sep 1983,Mar 1989,"150 eps","30 min","syndicated",US
 "Webster",Webster,6552,Sep 1983,Mar 1989,"150 eps","30 min","ABC",US
+"Webster",Webster,6552,Sep 1983,Mar 1989,"150 eps","30 min","syndicated",US
 "Wedding Band",WeddingBand,29531,Nov 2012,Jan 2013,"10 eps","60 min","TBS",US
 "The Wedding Bells",WeddingBells,15247,Mar 2007,Apr 2007,"7 eps, 2 unaired","60min","Fox",US
 "Wednesday 9:30 (8:30 Central)",Wednesday930830Central,6553,Mar 2002,June 2002,"6 eps","30 min","ABC",US
@@ -6612,7 +6625,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Welcome to The Captain",WelcometoTheCaptain,16628,Feb 2008,Mar 2008,"5 eps","30 min","CBS",US
 "Welcome to the Family",WelcometotheFamily,34924,Sep 2013,___ ____,"13 eps","30 min","NBC",US
 "Welcome to the Parker",WelcometotheParker,16627,July 2007,Aug 2007,"6 eps","60 min","Bravo",US
-"Wendell & Vinnie",WendellandVinnie,33099,Feb 2013,___ ____,"xx eps","30 min","Nick",US
+"Wendell & Vinnie",WendellandVinnie,33099,Feb 2013,July 2013,"16 eps","30 min","Nick",US
 "Wentworth",Wentworth,33365,May 2013,___ ____,"10+ eps","60 min","SoHo",AU
 "Werewolf",Werewolf,6562,July 1987,May 1988,"29 eps","30 min","Fox",US
 "The West Wing",WestWing,6289,Sep 1999,May 2006,"154 eps","60 min","NBC",US
@@ -6644,8 +6657,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "When Things Were Rotten",WhenThingsWereRotten,6580,Sep 1975,Dec 1975,"13 eps",,"ABC",US
 "Where I Live",WhereILive,6582,Mar 1993,Nov 1993,"21 eps","30 min","ABC",US
 "Where on Earth Is Carmen Sandiego?",WhereonEarthIsCarmenSandiego,6585,Feb 1994,Nov 1996,"40 eps","30 min","Fox",US
-"Where the Heart Is",WheretheHeartIs,,Apr 1997,Sep 2006,"110 eps","60 min","ITV1",UK
 "Where the Heart Is",WheretheHeartIs,,Apr 1997,Sep 2006,"110 eps","60 min","ITV",UK
+"Where the Heart Is",WheretheHeartIs,,Apr 1997,Sep 2006,"110 eps","60 min","ITV1",UK
 "Whiplash",Whiplash,6588,Feb 1961,Nov 1961,"34 eps (b&w)","30 min","Seven Network",AU
 "Whisker Wars",WhiskerWars,28794,Aug 2011,Sep 2011,"11 eps","30 min","IFC",US
 "Whispering Smith",WhisperingSmith,88,May 1961,Sep 1961,"20 eps","60 min","NBC",US
@@ -6663,8 +6676,8 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Whitney",Whitney,28357,Sep 2011,Mar 2013,"38 eps","30 min","NBC",US
 "Whiz Kids",WhizKids,6591,Oct 1983,Jun 1984,"18 eps","60 min","CBS",US
 "Who Do You Think You Are? (Australia)",WhoDoYouThinkYouAre_Australia,24273,Jan 2008,___ ____,"xx eps","50 min","SBS ",AU
-"Who Do You Think You Are? (UK)",WhoDoYouThinkYouAre,7436,Oct 2004,___ ____,"24+ eps","60 min","BBC2",UK
 "Who Do You Think You Are? (UK)",WhoDoYouThinkYouAre,7436,Oct 2004,___ ____,"24+ eps","60 min","BBC1",UK
+"Who Do You Think You Are? (UK)",WhoDoYouThinkYouAre,7436,Oct 2004,___ ____,"24+ eps","60 min","BBC2",UK
 "Who Do You Think You Are? (US)",WhoDoYouThinkYouAre_US,22820,Mar 2010,___ ____,"27+ eps","60 min","NBC",US
 "Who Do You Think You Are? (US)",WhoDoYouThinkYouAre_US,22820,Mar 2010,___ ____,"27+ eps","60 min","TLC",US
 "Who the Bleep Did I Marry?",WhotheBleepDidIMarry,26337,Aug 2010,___ ____,"xx eps","30 min","ID",US
@@ -6677,7 +6690,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Whoopi",Whoopi,6594,Sep 2003,Apr 2004,"22 eps","30 min","NBC",US
 "Whoops Apocalypse",WhoopsApocalypse,6596,Mar 1982,Apr 1982,"6 eps","30 min","ITV",UK
 "Whoops Baghdad",WhoopsBaghdad,7441,Jan 1973,Mar 1973,"6 eps","30 min","BBC1",UK
-"Who's Still Standing?",WhosStillStanding,28410,Dec 2011,___ ____,"xx eps","60 min","NBC",US
+"Who's Still Standing?",WhosStillStanding,28410,Dec 2011,Jan 2012,"9 eps","60 min","NBC",US
 "Who's the Boss?",WhostheBoss,6592,Sep 1984,Apr 1992,"196 eps","30 min","ABC",US
 "Who's Watching the Kids",WhosWatchingtheKids,1672,May 1978,Dec 1978,"16 eps, 6 unaired","30 min","NBC",US
 "Whose Line Is It Anyway? (UK)",WhoseLineIsItAnyway_UK,6598,Sep 1988,Sep 1997,"137 eps","30 min","Channel 4",UK
@@ -6785,6 +6798,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "World Poker Tour",WorldPokerTour,6649,Mar 2003,Aug 2008,"118 eps","60 min","The Travel Channel",US
 "World's Wildest Police Videos",WorldsWildestPoliceVideos,2376,Apr 1998,Feb 2000,"36 eps","30 min","NBC",US
 "World's Worst Tenants",WorldsWorstTenants,29467,June 2012,___ ____,"xx eps","30 min","Spike",US
+"Wormwood",Wormwood,24290,Oct 2007,Dec 2007,"13 eps","30 min","Network Ten",AU
 "Worst Cooks in America",WorstCooksinAmerica,22950,Jan 2010,___ ____,"xx eps","60 min","Food Network",US
 "Worst Week",WorstWeek,18969,Sep 2008,Jun 2009,"16 eps","30 min","CBS",US
 "The Worst Week of My Life",WorstWeekofMyLife,1268,Mar 2004,Dec 2006,"17 eps","30 min","BBC1",UK
@@ -6792,7 +6806,7 @@ title,directory,tvrage,start date,end date,number of episodes,run time,network,c
 "Worst-Case Scenario",WorstCaseScenario,25571,May 2010,June 2010,"12 eps","30 min","Discovery Channel",US
 "Worzel Gummidge",WorzelGummidge,6650,Feb 1979,Apr 1989,"54 eps","30 min","ITV",UK
 "Would I Lie to You?",WouldILietoYou,16424,June 2007,___ ____,"15+ eps","30 min","BBC1",UK
-"Would You Rather? with Graham Norton",WouldYouRather,29082,Dec 2011,___ ____,"xx eps","30 min","BBC America",US
+"Would You Rather? with Graham Norton",WouldYouRather,29082,Dec 2011,Feb 2012,"12 eps","30 min","BBC America",US
 "The Wright Verdicts",WrightVerdicts,6308,Mar 1995,Jun 1995,"7 eps, 1 unaired","60 min","CBS",US
 "The Wright Way",WrightWay,35103,Apr 2013,May 2013,"6 eps","30 min","BBC1",UK
 "The Writers' Room",WritersRoom,36080,July 2013,___ ____,"xx eps","30 min","Sundance",US

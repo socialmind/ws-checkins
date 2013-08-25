@@ -1,26 +1,25 @@
 <?php
 /**
- * A set of generic functions for ws-checking.
+ * A set of generic functions.
  *
- * Includes the following functionality: 
+ * Includes the following functionality:
+ * 
  * 	01. File handling
  * 	02. Formatting
  * 	03. IMDb related
  * 	04. Epguides related
  * 	05. OMDB related
  */
- 
-require_once('lib/db.php');
 require_once('lib/imdb.php');
 require_once('lib/freebase.php');
 require_once('lib/omdb.php');
 require_once('lib/epguides.php');
 require_once('lib/parsecsv.lib.php');
 
-// 01. FILE HANDLING //
+// 01. File Handling //
 
 /**
- *
+ * 
  */
 function uploadFile() {
 	$temp = explode(".", $_FILES["file"]["name"]);
@@ -114,7 +113,7 @@ function readCSV($path, $sortBy = '', $reverse = false) {
 /**
  * Generic function for printing the content of a .csv file
  */
-function printCSV($csv) {
+function printCSV($csv, $title) {
 ?>	
 	<style type="text/css" media="screen">
 		table { background-color: #BBB; }
@@ -125,7 +124,7 @@ function printCSV($csv) {
 	</style>
 	<table border="0" cellspacing="1" cellpadding="3">
 		<h2>
-			CSV File Content!
+			<? echo $title; ?>
 		</h2>
 		<tr>
 			<?php foreach ($csv->titles as $value): ?>
