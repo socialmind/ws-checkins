@@ -31,37 +31,36 @@ class Epguides
 	 * Constructor. It creates an instance of @link Epguides based on the Epguides
 	 * Movie / TV Series ID.
 	 */
-	public function __construct($id) {
+	public function __construct( $id ) {
 		$this->id = $id;
-		
 	}
 
-	public function getEpisodesCSVUrl() {
-		$yql = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%27http%3A%2F%2Fepguides.com%2F" . $this->id . "%2F%27%20and%20xpath%3D%27%20%2F%2Ftd[contains%28%40class%2C%22TVRage%22%29]%27&format=json&diagnostics=true&callback=";
-		$json = file_get_contents($yql);
-		$data = json_decode($json, TRUE);
-		$url = "";
+	public function get_episodes_CSV_URL( ) {
+		$YQL = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%27http%3A%2F%2Fepguides.com%2F" . $this->id . "%2F%27%20and%20xpath%3D%27%20%2F%2Ftd[contains%28%40class%2C%22TVRage%22%29]%27&format=json&diagnostics=true&callback=";
+		$JSON = file_get_contents( $YQL );
+		$data = json_decode( $JSON , TRUE );
+		$URL = "";
 		
-		$count = sizeof($data["query"]["results"]["td"]);
-		for($i=0 ; $i < $count ; $i++) {
-			if ( stristr( $data["query"]["results"]["td"][$i]["a"]["href"], 'exportToCSV.asp' ) ) {
-				$url = $data["query"]["results"]["td"][$i]["a"]["href"];
+		$count = sizeof( $data["query"]["results"]["td"] );
+		for ( $i=0 ; $i < $count ; $i++ ) {
+			if ( stristr( $data["query"]["results"]["td"][$i]["a"]["href"] , 'exportToCSV.asp' ) ) {
+				$URL = $data["query"]["results"]["td"][$i]["a"]["href"];
 			} 
 		}
-		return $url;
+		
+		return $URL;
 	}
 
-	public function getEpisodesCSV($url) {
-		$yql = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D'%0A" . $url . "'%20and%20xpath%3D'%2F%2Fpre'&format=json&diagnostics=true&callback=";
-		$json = file_get_contents($yql);
-		$data = json_decode($json, TRUE);
-
+	public function get_episodes_CSV( $URL ) {
+		$YQL = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D'%0A" . $URL . "'%20and%20xpath%3D'%2F%2Fpre'&format=json&diagnostics=true&callback=";
+		$JSON = file_get_contents( $YQL );
+		$data = json_decode( $JSON , TRUE);
 		$csvContent = $data["query"]["results"]["pre"];		
 
-		return trim($csvContent);
+		return trim( $csvContent );
 	}
 	
-	public function getId() { 
+	public function get_ID() { 
 		return $this->id; 
 	} 
 }

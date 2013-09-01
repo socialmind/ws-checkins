@@ -21,10 +21,10 @@ require_once('lib/parsecsv.lib.php');
 /**
  * 
  */
-function uploadFile() {
-	$temp = explode(".", $_FILES["file"]["name"]);
-	if( end($temp) == "csv" ) {
-		if ($_FILES["file"]["error"] > 0) {
+function upload_file( ) {
+	$temp = explode( "." , $_FILES["file"]["name"] );
+	if ( end( $temp ) == "csv" ) {
+		if ( $_FILES["file"]["error"] > 0 ) {
 			echo "Return Code: " . $_FILES["file"]["error"] . "<br>";
 		}
 		else {
@@ -32,78 +32,69 @@ function uploadFile() {
 				echo $_FILES["file"]["name"] . " already exists. ";
 			}
 			else {
-				move_uploaded_file($_FILES["file"]["tmp_name"], IMDB_CHECKINS_DIR . "/" . $_FILES["file"]["name"]);
+				move_uploaded_file( $_FILES["file"]["tmp_name"] , IMDB_CHECKINS_DIR . "/" . $_FILES["file"]["name"] );
+				
 				return IMDB_CHECKINS_DIR . "/" . $_FILES["file"]["name"];
 			}
 		}
 	} else {
-		echo "The file you uploaded must be a .csv file!";
+		echo "The file you uploaded must be in CSV format.";
 	}
 }
 
 /**
  *
  */
-function downloadFile($url, $path) {
-
-  $newfname = $path;
-  $file = fopen ($url, "rb");
-  if ($file) {
-    $newf = fopen ($newfname, "wb");
-
-    if ($newf)
-    while(!feof($file)) {
-      fwrite($newf, fread($file, 1024 * 8 ), 1024 * 8 );
-    }
-  }
-
-  if ($file) {
-    fclose($file);
-  }
-
-  if ($newf) {
-    fclose($newf);
-  }
- }
-
-
+function download_file( $URL , $path ) {
+	$newfname = $path;
+	$file = fopen ( $URL , "rb" );
+	if ( $file ) {
+		$newf = fopen ( $newfname , "wb" );
+		if ( $newf )
+		    while( ! feof( $file ) ) 
+		    	fwrite( $newf , fread( $file , 1024 * 8 ) , 1024 * 8 );
+	}
+	if ( $file ) 
+		fclose( $file );
+	
+	if ( $newf )
+		fclose($newf);
+}
 
 /**
  * 
  */
-function writeToFile($path, $data) {
-	file_put_contents($path, $data, FILE_WRITE | LOCK_EX);
+function write_to_file( $path , $data ) {
+	file_put_contents( $path , $data , 'FILE_WRITE' | LOCK_EX );
 }
 
 /** 
  * Checks if the CSV file is valid.
  * @return bool
  */
-function isValid($path) {
-	$csv = new parseCSV();
-	$csv->auto($path);
-	if(sizeof($csv->titles) > 1) {
+function is_valid( $path ) {
+	$csv = new parseCSV( );
+	$csv->auto( $path );
+	if ( sizeof( $csv->titles ) > 1 )
 		return true;
-	} else {
+	else
 		return false;
-	}
 }
 
 /**
  *
  */
-function readCSV($path, $sortBy = '', $reverse = false) {
+function read_CSV( $path , $sort_by = '' , $reverse = false ) {
 	$csv = new parseCSV();
-	if($sortBy != '') {
-		$csv->sort_by = $sortBy;
+	if( $sort_by != '' ) {
+		$csv->sort_by = $sort_by;
 	}
 	$csv->sort_reverse = $reverse;
-	$csv->auto($path);
-	
-	if(isValid($path)) { //Checks if the user exists and has a valid checkin history CSV
+	$csv->auto( $path );
+	if( is_valid( $path ) ) { //Checks if the user exists and has a valid checkin history CSV
 		return $csv;
 	} else {
-		unlink($path);
+		unlink( $path );
 		die("invalid csv file!");
 	}
 }
@@ -113,7 +104,7 @@ function readCSV($path, $sortBy = '', $reverse = false) {
 /**
  * Generic function for printing the content of a .csv file
  */
-function printCSV($csv, $title) {
+function print_CSV( $csv , $title ) {
 ?>	
 	<style type="text/css" media="screen">
 		table { background-color: #BBB; }
@@ -127,17 +118,17 @@ function printCSV($csv, $title) {
 			<? echo $title; ?>
 		</h2>
 		<tr>
-			<?php foreach ($csv->titles as $value): ?>
+			<?php foreach ( $csv->titles as $value ) : ?>
 			<th><?php echo $value; ?></th>
-			<?php endforeach; ?>
+			<?php endforeach ; ?>
 		</tr>
-		<?php foreach ($csv->data as $key => $row) : ?>
+		<?php foreach ( $csv->data as $key => $row ) : ?>
 		<tr>
-			<?php foreach ($row as $value) : ?> 
+			<?php foreach ( $row as $value ) : ?> 
 			<td><?php echo $value; ?></td>
-			<?php endforeach; ?>
+			<?php endforeach ; ?>
 		</tr>
-		<?php endforeach; ?>
+		<?php endforeach ; ?>
 	</table>
 <?php
 }
@@ -147,12 +138,13 @@ function printCSV($csv, $title) {
 /**
  *
  */
-function getIMDBCheckIns($path) {
-	$csv = readCSV($path);
+function get_IMDB_check_ins( $path ) {
+	$csv = read_CSV( $path );
 	//To have stats
-	$imdb = new imdbCheckInTracker($csv);
-	$imdb->analyze();
-	return $imdb->getCSV();
+	$imdb = new IMDB_Check_Ins( $csv );
+	$imdb->analyze( );
+	
+	return $imdb->get_CSV( );
 }
 
 // 04. EPGUIDES RELATED //
@@ -160,21 +152,21 @@ function getIMDBCheckIns($path) {
 /**
  *
  */
-function getEpisodesList($name) {
-	$epguides = new Epguides($name);
-	$url = $epguides ->getEpisodesCSVUrl();
-	$path = DATA_DIR . "/". $epguides ->getId() . ".csv";	
-	writeToFile( $path, $epguides ->getEpisodesCSV($url) );
+function get_episodes_list( $name ) {
+	$epguides = new Epguides( $name );
+	$URL = $epguides ->get_episodes_CSV_URL( );
+	$path = DATA_DIR . "/". $epguides->get_ID( ) . ".csv";	
+	write_to_file( $path, $epguides->get_episodes_CSV( $URL ) );
 	
-	return readCSV($path);
+	return read_CSV( $path );
 }
 
 /**
  *
  */
-function getAllShows() {
+function get_all_shows( ) {
 	$path = DATA_DIR. "/" . "epguides_all.csv";
-	file_put_contents($path, fopen("http://epguides.com/common/allshows.txt", 'r'));
+	file_put_contents( $path , fopen( "http://epguides.com/common/allshows.txt" , 'r' ) );
 	
 	return $path;
 }

@@ -27,10 +27,8 @@ class Freebase{
 	 * Constructor. It creates an instance of @link Freebase based using a   
 	 * Google API key.
 	 */
-	public function __construct($apiKey) {
-
-		$this->api_key = $apiKey;
-
+	public function __construct($api_key) {
+		$this->api_key = $api_key;
 	}
 
 	/**
@@ -39,18 +37,17 @@ class Freebase{
 	 * list of the parameters that you can specify in the wiki for the Search API.
 	 * ( http://wiki.freebase.com/wiki/ApiSearch )
 	 */
-	public function search($query, $filter = '', $start = 0, $limit = 10, $exact = 'false'){
-
-	  if(!empty($query)){
-	      $query = urlencode($query);
-	      $url    = 'https://www.googleapis.com/freebase/v1/search?query='. $query;
-	      $url .= '&filter=(' . urlencode($filter) . ')';
-	      $url .= '&start=' . $start;
-	      $url .= '&limit=' . $limit;
-	      $url .= '&exact=' . $exact;
-	      $url .= '&key=' . $this->api_key;
-
-	      $response = json_decode(file_get_contents($url), true);
+	public function search( $query , $filter = '' , $start = 0 , $limit = 10 , $exact = 'false' ) {
+	  if ( ! empty( $query ) ) {
+	      $query = urlencode( $query );
+	      $URL = 'https://www.googleapis.com/freebase/v1/search?query=' . $query;
+	      $URL .= '&filter=(' . urlencode( $filter ) . ')';
+	      $URL .= '&start=' . $start;
+	      $URL .= '&limit=' . $limit;
+	      $URL .= '&exact=' . $exact;
+	      $URL .= '&key=' . $this->api_key;
+	      $response = json_decode( file_get_contents( $URL ) , true );
+	      
 	      return $response['result'];
 	  }
 	}
@@ -65,15 +62,14 @@ class Freebase{
 	 * file_get_contents method here since we only need the url for the image we only return the 
 	 * url itself.
 	 */
-	public function image($entity_id, $max_width = 150, $max_height = 150){
+	public function image( $entity_id , $max_width = 150 , $max_height = 150 ) {
+	  if( ! empty( $entity_id ) ) {
+	      $URL = 'https://usercontent.googleapis.com/freebase/v1/image' . $entity_id;
+	      $URL .= '?maxwidth=' . $max_width;
+	      $URL .= '&maxheight=' . $max_height;
+	      $URL .= '&key=' . $this->api_key;
 
-	  if(!empty($entity_id)){
-	      $url = 'https://usercontent.googleapis.com/freebase/v1/image' . $entity_id;
-	      $url .= '?maxwidth=' . $max_width;
-	      $url .= '&maxheight=' . $max_height;
-	      $url .= '&key=' . $this->api_key;
-
-	      return $url;      
+	      return $URL;      
 	  }
 	}
 
@@ -85,14 +81,13 @@ class Freebase{
 	 * used to specify the maximum length of the text that will be returned. 0 being no limit so it basically 
 	 * returns everything it can return.
 	 */
-	public function text($entity_id, $max_length = '0'){
-
-	  if(!empty($entity_id)){
-	      $url    = 'https://www.googleapis.com/freebase/v1/text/' . $entity_id;
-	      $url .= '?maxlength=' . $max_length;
-	      $url .= '&key=' . $this->api_key;
-
-	      $response = json_decode(file_get_contents($url), true);
+	public function text( $entity_id , $max_length = '0' ) {
+	  if( ! empty( $entity_id ) ) {
+	      $URL = 'https://www.googleapis.com/freebase/v1/text/' . $entity_id;
+	      $URL .= '?maxlength=' . $max_length;
+	      $URL .= '&key=' . $this->api_key;
+	      $response = json_decode( file_get_contents( $URL ) , true );
+	      
 	      return $response['result'];       
 	  }
 	}
@@ -102,12 +97,11 @@ class Freebase{
 	 * those for another day. The topic API just like the text service and image service requires an entity ID for 
 	 * the request.
 	 */
-	public function topic($entity_id){
-
-	  if(!empty($entity_id)){
-	      $url = 'https://www.googleapis.com/freebase/v1/topic' . $entity_id;
+	public function topic( $entity_id ) {
+	  if( ! empty( $entity_id ) ) {
+	      $URL = 'https://www.googleapis.com/freebase/v1/topic' . $entity_id;
 	      
-	      return json_decode(file_get_contents($url), true);        
+	      return json_decode( file_get_contents( $URL ) , true );        
 	  }
 	}
 }

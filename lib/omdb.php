@@ -21,23 +21,23 @@
 class OMDB {
 
 	/** Default URL for the OMDB API service */
-	private $url = 'http://www.omdbapi.com/';
+	private $URL = 'http://www.omdbapi.com/';
 
 	/** 
 	 * Performs search using the OMDB API using a search query given in the
 	 * form of a url (e.g. http://www.omdbapi.com/?s=Star Wars) and returns 
 	 * the result in array form.
 	 * 
-	 * @param $url 
+	 * @param $URL 
 	 * @return array
 	 */
-	public function getData($url) {
-		$data = json_decode(file_get_contents($url), true);
+	public function get_data( $URL ) {
+		$data = json_decode( file_get_contents( $URL ) , true );
+		//$result = strtolower( $data['Response'] ) == 'true';
+		//unset( $data['Response'] );
 
-		$result = strtolower($data['Response']) == 'true';
-		unset($data['Response']);
-
-		return array($result, $data);
+		//return array( $result , $data );
+		return $data;
 	}
 
 	/**
@@ -48,23 +48,19 @@ class OMDB {
 	 * @param $year The year the movie / TV Episode was released
 	 * @return array
 	 */
-	public function findByNameAndYear($title, $year) {
-		
-		return $this->getData(sprintf('%s?t=%s&y=%d', $this->url, urlencode($title), $year));
-	
+	public function find_by_name_and_year( $title, $year ) {
+		return $this->get_data( sprintf( '%s?t=%s&y=%d' , $this->URL , urlencode($title) , $year ) );
 	}
 
 	/** 
 	 * Performs search using the OMDB API using a search query using the IMDB id of
 	 * the movie / TV Episode and returns the result in array form.
 	 * 
-	 * @param $id The IMDB id for the movie / TV Episode
+	 * @param $ID The IMDB id for the movie / TV Episode
 	 * @return array
 	 */
-	public function findByIMDB($id) {
-		
-		return $this->getData(sprintf('%s?i=%s', $this->url, urlencode($id)));
-	
+	public function find_by_IMDB_ID( $ID ) {
+		return $this->get_data( sprintf('%s?i=%s' , $this->URL , urlencode( $ID ) ) );	
 	}
 }
 ?>

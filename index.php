@@ -1,158 +1,122 @@
-<?php include('./header.php'); ?>
-        <!-- Slider -->
-        <div class="slider">
-            <div class="container">
-                <div class="row">
-                    <div class="span10 offset1">
-                        <div class="flexslider">
-                            <ul class="slides">
-                                <li data-thumb="assets/img/slider/1.jpg">
-                                    <img src="assets/img/slider/1.jpg">
-                                    <p class="flex-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur.</p>
-                                </li>
-                                <li data-thumb="assets/img/slider/2.jpg">
-                                    <img src="assets/img/slider/2.jpg">
-                                    <p class="flex-caption">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                                </li>
-                                <li data-thumb="assets/img/slider/5.jpg">
-                                    <img src="assets/img/slider/5.jpg">
-                                    <p class="flex-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur.</p>
-                                </li>
-                                <li data-thumb="assets/img/slider/6.jpg">
-                                    <img src="assets/img/slider/6.jpg">
-                                    <p class="flex-caption">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<?php
+/** 
+ * This is a test file. Summarizes all the functionality of the project
+ * up to now and helps the intented developer to quickly understand how
+ * stuff work around here :)
+ * 
+ * If you are working on ws-checkings please remember to acompany every
+ * major contribution with an appropriate test sample.
+ */
+require_once(__DIR__.'/config.php');
+require_once(__DIR__.'/functions.php');
 
-        <!-- Site Description -->
-        <div class="presentation container">
-            <h2>We are <span class="violet">Andia</span>, a super cool design agency.</h2>
-            <p>We design beautiful websites, logos and prints. Your project is safe with us.</p>
-        </div>
+$csv = get_episodes_list("arrow");
+$path = "";
 
-        <!-- Services -->
-        <div class="what-we-do container">
-            <div class="row">
-                <div class="service span3">
-                    <div class="icon-awesome">
-                        <i class="icon-eye-open"></i>
-                    </div>
-                    <h4>Beautiful Websites</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
-                    <a href="services.html">Read more</a>
-                </div>
-                <div class="service span3">
-                    <div class="icon-awesome">
-                        <i class="icon-table"></i>
-                    </div>
-                    <h4>Responsive Layout</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
-                    <a href="services.html">Read more</a>
-                </div>
-                <div class="service span3">
-                    <div class="icon-awesome">
-                        <i class="icon-magic"></i>
-                    </div>
-                    <h4>Awesome Logos</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
-                    <a href="services.html">Read more</a>
-                </div>
-                <div class="service span3">
-                    <div class="icon-awesome">
-                        <i class="icon-print"></i>
-                    </div>
-                    <h4>High Res Prints</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
-                    <a href="services.html">Read more</a>
-                </div>
-            </div>
-        </div>
+if ( isset( $_FILES["file"]["name"] ) ) {
 
-        <!-- Latest Work -->
-        <div class="portfolio container">
-            <div class="portfolio-title">
-                <h3>Our Latest Work</h3>
-            </div>
-            <div class="row">
-                <div class="work span3">
-                    <img src="assets/img/portfolio/work1.jpg" alt="">
-                    <h4>Lorem Website</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
-                    <div class="icon-awesome">
-                        <a href="assets/img/portfolio/work1.jpg" rel="prettyPhoto"><i class="icon-search"></i></a>
-                        <a href="portfolio.html"><i class="icon-link"></i></a>
-                    </div>
-                </div>
-                <div class="work span3">
-                    <img src="assets/img/portfolio/work2.jpg" alt="">
-                    <h4>Ipsum Logo</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
-                    <div class="icon-awesome">
-                        <a href="assets/img/portfolio/work2.jpg" rel="prettyPhoto"><i class="icon-search"></i></a>
-                        <a href="portfolio.html"><i class="icon-link"></i></a>
-                    </div>
-                </div>
-                <div class="work span3">
-                    <img src="assets/img/portfolio/work3.jpg" alt="">
-                    <h4>Dolor Prints</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
-                    <div class="icon-awesome">
-                        <a href="assets/img/portfolio/work3.jpg" rel="prettyPhoto"><i class="icon-search"></i></a>
-                        <a href="portfolio.html"><i class="icon-link"></i></a>
-                    </div>
-                </div>
-                <div class="work span3">
-                    <img src="assets/img/portfolio/work4.jpg" alt="">
-                    <h4>Sit Amet Website</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
-                    <div class="icon-awesome">
-                        <a href="assets/img/portfolio/work4.jpg" rel="prettyPhoto"><i class="icon-search"></i></a>
-                        <a href="portfolio.html"><i class="icon-link"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+	$path = IMDB_CHECKINS_DIR . "/" . $_FILES["file"]["name"];
 
-        <!-- Testimonials -->
-        <div class="testimonials container">
-            <div class="testimonials-title">
-                <h3>Testimonials</h3>
-            </div>
-            <div class="row">
-                <div class="testimonial-list span12">
-                    <div class="tabbable tabs-below">
-                        <div class="tab-content">
-                            <div class="tab-pane active" id="A">
-                                <img src="assets/img/testimonials/1.jpg" title="" alt="">
-                                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur..."<br /><span class="violet">Lorem Ipsum, dolor.co.uk</span></p>
-                            </div>
-                            <div class="tab-pane" id="B">
-                                <img src="assets/img/testimonials/2.jpg" title="" alt="">
-                                <p>"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."<br /><span class="violet">Minim Veniam, nostrud.com</span></p>
-                            </div>
-                            <div class="tab-pane" id="C">
-                                <img src="assets/img/testimonials/3.jpg" title="" alt="">
-                                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur..."<br /><span class="violet">Lorem Ipsum, dolor.co.uk</span></p>
-                            </div>
-                            <div class="tab-pane" id="D">
-                                <img src="assets/img/testimonials/1.jpg" title="" alt="">
-                                <p>"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."<br /><span class="violet">Minim Veniam, nostrud.com</span></p>
-                            </div>
-                        </div>
-                       <ul class="nav nav-tabs">
-                           <li class="active"><a href="#A" data-toggle="tab"></a></li>
-                           <li class=""><a href="#B" data-toggle="tab"></a></li>
-                           <li class=""><a href="#C" data-toggle="tab"></a></li>
-                           <li class=""><a href="#D" data-toggle="tab"></a></li>
-                       </ul>
-                   </div>
-                </div>
-            </div>
-        </div>  
-  
-<?php include('./footer.php'); ?>
+	if ( file_exists( $path ) ) {
+		$checkins = get_IMDB_check_ins( $path );
+	} else {
+		$path = upload_file( $_FILES );
+		if ( $path != "" ) {
+			$checkins = get_IMDB_check_ins( $path );
+		}
+	}
+}
+?>
+
+<style type="text/css" media="screen">
+	table { background-color: #BBB; }
+	th { background-color: #EEE; }
+	td { background-color: #FFF; }
+	h2 { text-align: center; } 
+	table { width: 100%; }
+</style>
+
+<center>
+	<h1>WS Check Ins Test Page</h1>
+	<p style="width: 60%"><em>This is a test page that summarizes all the functionality of the project as it evolves and 
+		helps the intented developer to quickly understand how stuff work around here :)</em></p>
+</center>
+<br>
+<center>
+	<h3>Get IMDb check-ins from your public CSV file</h3>
+	<p style="width: 60%;"><em>In order to test the IMDb check-ins functionality you need to visit IMDb, go to your account
+		page, visit the check-in section and download your personalized CHECKINS.csv file in the end of the
+		page. (<u>IMPORTANT NOTE</u>: Please consult IMDb's <a href="http://www.imdb.com/help/show_article?conditions" target="top">Conditions of use</a>
+		before you proceed. Websthetics is not to be held liable in ant way by the actions of individuals that use ws-checkins)</em></p>
+</center>
+
+<form action="index.php" method="post" enctype="multipart/form-data">
+<label for="file">Filename:</label>
+<input type="file" name="file" id="file"><br>
+<input type="submit" name="submit" value="Submit">
+</form>
+<br><br>
+
+<?php if ( isset( $checkins ) ) { ?>
+
+<center><h3>Get check-ins with IMDb</h3></center> 
+<br> 
+<table border="0" cellspacing="1" cellpadding="3"> 	
+	<tr> 		
+		<?php foreach ( $checkins->titles as $value ) : ?> 		
+			<th><?php echo $value; ?></th> 		
+		<?php endforeach ; ?> 	
+	</tr> 	
+	<?php foreach ( $checkins->data as $key => $row ) : ?> 	
+	<tr> 		
+		<?php foreach ( $row as $value ) : ?>  		
+			<td><?php echo $value; ?></td> 		
+		<?php endforeach ; ?> 	
+	</tr> 	
+	<?php endforeach ; ?> 
+</table> 
+<br>
+
+<center><h3>Get episodes with Epguides</h3></center>
+<br>
+<table border="0" cellspacing="1" cellpadding="3">
+	<tr>
+		<?php foreach ( $csv->titles as $value ) : ?>
+		<th><?php echo $value; ?></th>
+		<?php endforeach ; ?>
+	</tr>
+	<?php foreach ( $csv->data as $key => $row ) : ?>
+	<tr>
+		<?php foreach ($row as $value ) : ?> 
+		<td><?php echo $value; ?></td>
+		<?php endforeach ; ?>
+	</tr>
+	<?php endforeach ; ?>
+</table>
+<br>
+<?php } ?>
+
+<center><h3>Get OMDB tests</h3></center>
+<br>
+<?php
+$omdb = new OMDB();
+	
+print_r( $omdb->get_data( "http://www.omdbapi.com/?s=Gilmore%20Girls" ) );
+echo "<br><br>OMDB :: tt0848228<br><br>";
+print_r( $omdb->find_by_IMDB_ID( "tt0848228" ) );
+echo "<br><br>OMDB :: 'True Grit', '1969'<br><br>";
+print_r( $omdb->find_by_name_and_year( "True Grit" , "1969" ) );
+?>
+<br><br>
+
+<center><h3>Get Freebase tests</h3></center>
+<br>
+<?php
+
+$freebase = new Freebase( 'AIzaSyDxUIEJXpGkYKTca93JNsMndmzE88KQLPw' );
+$result = $freebase->search( 'Gilmore' , 'all type:/tv/tv_program' );
+print_r( $result );
+$path = get_all_shows( ); 
+$csv = read_CSV( $path , "title" );
+print_CSV( $csv , 'List of TV Series in Epguides' );
+?>
