@@ -50,7 +50,7 @@ if ( isset( $_FILES["file"]["name"] ) ) {
 		before you proceed. Websthetics is not to be held liable in ant way by the actions of individuals that use ws-checkins)</em></p>
 </center>
 
-<form action="index.php" method="post" enctype="multipart/form-data">
+<form action="./index.php" method="post" enctype="multipart/form-data">
 <label for="file">Filename:</label>
 <input type="file" name="file" id="file"><br>
 <input type="submit" name="submit" value="Submit">
@@ -113,7 +113,7 @@ print_r( $omdb->find_by_name_and_year( "True Grit" , "1969" ) );
 <br>
 <?php
 
-$freebase = new Freebase( 'AIzaSyDxUIEJXpGkYKTca93JNsMndmzE88KQLPw' );
+$freebase = new Freebase( FREEBASE_API_KEY );
 $result = $freebase->search( 'Gilmore' , 'all type:/tv/tv_program' );
 print_r( $result );
 $path = get_all_shows( ); 

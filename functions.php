@@ -10,11 +10,11 @@
  * 	04. Epguides related
  * 	05. OMDB related
  */
-require_once('lib/imdb.php');
-require_once('lib/freebase.php');
-require_once('lib/omdb.php');
-require_once('lib/epguides.php');
-require_once('lib/parsecsv.lib.php');
+require_once(__DIR__ . '/lib/imdb.php');
+require_once(__DIR__ . '/lib/freebase.php');
+require_once(__DIR__ . '/lib/omdb.php');
+require_once(__DIR__ . '/lib/epguides.php');
+require_once(__DIR__ . '/lib/parsecsv.lib.php');
 
 // 01. File Handling //
 
@@ -173,5 +173,11 @@ function get_all_shows( ) {
 
 // 05. OMDB RELATED //
 
+function search_OMDB( $query ) {
+	$omdb = new OMDB();
+	$query = "http://www.omdbapi.com/?s=" . urlencode( $query );
+	
+	return $omdb->get_data( $query )['Search'];
+}
 
 ?>
