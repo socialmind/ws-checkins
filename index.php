@@ -12,6 +12,7 @@ require_once(__DIR__.'/functions.php');
 
 $csv = get_episodes_list("arrow");
 $path = "";
+$checkind = "";
 
 if ( isset( $_FILES["file"]["name"] ) ) {
 
@@ -57,7 +58,7 @@ if ( isset( $_FILES["file"]["name"] ) ) {
 </form>
 <br><br>
 
-<?php if ( isset( $checkins ) ) { ?>
+<?php if ( isset( $checkins ) && $checkins !== "" ) { ?>
 
 <center><h3>Get check-ins with IMDb</h3></center> 
 <br> 
@@ -76,6 +77,9 @@ if ( isset( $_FILES["file"]["name"] ) ) {
 	<?php endforeach ; ?> 
 </table> 
 <br>
+<?php } ?>
+
+<?php if ( isset( $csv ) && $csv !== "" ) { ?>
 
 <center><h3>Get episodes with Epguides</h3></center>
 <br>
@@ -115,8 +119,17 @@ print_r( $omdb->find_by_name_and_year( "True Grit" , "1969" ) );
 
 $freebase = new Freebase( FREEBASE_API_KEY );
 $result = $freebase->search( 'Gilmore' , 'all type:/tv/tv_program' );
-print_r( $result );
+var_dump( $result );
+
+?>
+<br><br>
+
+<center><h3>Get All Epguides available series test</h3></center>
+<br>
+<?php
+
 $path = get_all_shows( ); 
 $csv = read_CSV( $path , "title" );
 print_CSV( $csv , 'List of TV Series in Epguides' );
+
 ?>

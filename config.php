@@ -5,7 +5,7 @@
  */
 define( "DATA_DIR" , __DIR__ . "/data" );
 define( "IMDB_CHECKINS_DIR" , DATA_DIR . "/" . "imdb-checkins" );
-define( "FREEBASE_API_KEY", "YOUR FREBASE API KEY GOES HERE");
+define( "FREEBASE_API_KEY", "AIzaSyDxUIEJXpGkYKTca93JNsMndmzE88KQLPw");
 
 //Check if data folder exists and if not create it
 if ( ! file_exists( DATA_DIR ) ) {
