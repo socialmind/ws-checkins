@@ -91,14 +91,14 @@ require(__DIR__ . '/functions.php');
 		?>
 						</div>
 						<div class="row-fluid">
-							<div class="span2 offset2 ws-texttile">
-								<span><?php echo $item['Title']; ?></span>
+							<div class="span2 offset2 ws-tile">
+								<img src="noimage.png" width="300" height="458"/>
 							</div>
 		<?php
 						} else {
 		?>
-							<div class="span2 ws-texttile">
-								<span><?php echo $item['Title']; ?></span>
+							<div class="span2 ws-tile">
+								<img src="noimage.png" width="300" height="458"/>
 							</div>
 		<?php
 						} 
