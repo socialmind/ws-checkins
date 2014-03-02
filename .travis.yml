@@ -4,4 +4,4 @@ php:
 - 5.3
 before_script: ./before_script.sh
 script: "php run-phpunit.php"
-
+ 
